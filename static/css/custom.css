@@ -1,4 +1,98 @@
 /* your styles go here */
+.navbar-affixed-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+#home {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#home .home-logo-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	width: 100%;
+	position: relative;
+}
+
+#home .home-logo-container .home-logo-bar {
+	width: 15%;
+	height: 1px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+#home .home-logo-container .home-logo {
+	width: 70px;
+	height: 70px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 50%;
+	margin: 0 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#home .home-logo-container .home-logo img {
+	height: 50px;
+	width: auto;
+	margin-top: -4px;
+}
+
+#home .home-title {
+	font-size: 40px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+#home .home-subtitle {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 70px;
+}
+
+#home .home-program-button {
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 10px;
+	transition: all 0.2s ease-in-out;
+}
+
+#home .home-program-button:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+
+#home .home-helper {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#home .home-helper i {
+	color: rgba(255,255,255, 0.5);
+}
+
 
 .box-image-text .image {
   min-height: 200px;

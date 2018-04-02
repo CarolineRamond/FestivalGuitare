@@ -12,6 +12,7 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
+
 [menu]
 
 # Main menu
@@ -112,16 +113,16 @@ paginate = 10
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
-# Enable or disable top bar with social icons
-[params.topbar]
-    enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
-      """
-
 # Enable and disable widgets for the right sidebar
+[params.homepage]
+    background = "img/custom/background.jpg"
+    title = "Festival de Guitare de Paris"
+    subtitle = "XVème édition"
+    logo="img/custom/logo.png"
+[params.homepage.download]
+    label="Télécharger le programme 2016"
+    path="img/custom/background.jpg"
+
 [params.widgets]
     categories = true
     tags = true

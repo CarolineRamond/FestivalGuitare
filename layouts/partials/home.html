@@ -1,0 +1,36 @@
+<div id="home" 
+    style="background: url({{.Site.Params.homepage.background}}); background-size:cover;background-position: center;"
+>
+
+    <!-- LOGO -->
+    <div class="home-logo-container">
+        <div class="home-logo-bar"></div>
+        <div class="home-logo">
+            <img src="{{.Site.Params.homepage.logo}}">
+        </div>
+        <div class="home-logo-bar"></div>
+    </div>
+
+    <!-- TITLE -->
+    {{ with .Site.Params.homepage.title }}
+        <div class="home-title">{{.}}</div>
+    {{ end }}
+
+    <!-- SUBTITLE -->
+    {{ with .Site.Params.homepage.subtitle }}
+        <div class="home-subtitle">{{.}}</div>
+    {{ end }}
+
+    <!-- DOWNLOAD PROGRAM -->
+    {{ with .Site.Params.homepage.download }}
+        <a class="home-program-button" href="{{ .path }}" download>
+            {{ .label }}
+        </a>
+    {{ end }}
+
+    <!-- HELPER -->
+    <div class="home-helper">
+        <i class="fa fa-3x fa-angle-double-down"></i>
+    </div>
+
+</div>
