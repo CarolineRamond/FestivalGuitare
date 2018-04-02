@@ -139,11 +139,9 @@ paginate = 10
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
-[params.features]
+[params.program]
     enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
+    title= "Programme"
 
 [params.testimonials]
     enable = true

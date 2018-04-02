@@ -1,0 +1,16 @@
+date: "Dimanche 27 Novembre 2016"
+order: 4
+events:
+  - event:
+    type: "Salon de Lutherie"
+    time: "10h-16h30"
+    description: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
+  - event:
+    type: "Salon de lutherie"
+    artist: "Présentation des instruments"
+    time: "11h"
+  - event:
+    type: "Concert"
+    artist: "Duo Golz&Danilov (Sören Golz & Ivan Danilov) // Aniello Desiderio"
+    time: "17h30"
+    description: "Albeniz, Assad, Piazzolla // Turina, Coste, Albeniz, Guiliani"

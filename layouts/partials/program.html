@@ -1,27 +1,58 @@
-{{ if isset .Site.Params "features" }}
-{{ if .Site.Params.features.enable }}
-{{ if gt (len .Site.Data.features) 0 }}
-<section class="bar background-white" id="program">
+{{ if isset .Site.Params "program" }}
+{{ if .Site.Params.program.enable }}
+{{ if gt (len .Site.Data.program) 0 }}
+<section class="custom-section" id="program">
+
+    <div class="strings">
+        <div class="string" style="opacity:0.2;"></div>
+        <div class="string" style="opacity:0.2;"></div>
+        <div class="string" style="opacity:0.2;"></div>
+        <div class="string" style="opacity:0.15;"></div>
+        <div class="string" style="opacity:0.15;"></div>
+        <div class="string" style="opacity:0.1;"></div>
+    </div>
+
+
     <div class="container">
-        {{ range $index, $element := sort .Site.Data.features "weight" }}
-		{{ if eq (mod $index 3) 0 }}
-		<div class="col-md-12">
-            <div class="row">
-		{{ end }}
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="{{ .icon }}"></i>
-                        </div>
-                        <h3>{{ $element.name }}</h3>
-                        <p>{{ $element.description | markdownify }}</p>
-                    </div>
+        <div class="section-title">
+            {{ .Site.Params.program.title }}
+        </div>
+
+
+        <div class="panel-group" id="program-accordion" role="tablist" aria-multiselectable="true">
+            {{ range $index, $element := sort .Site.Data.program "order"}}
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <div class="panel-title">
+                    <a role="button" data-toggle="collapse" 
+                        href="#collapse-{{$index}}" aria-expanded="true">
+                      {{ $element.date}}
+                    </a>
+                  </div>
                 </div>
-		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.features) 1 )) }}
-			</div>
-		</div>
-		{{ end }}
-        {{ end }}
+                <div id="collapse-{{$index}}" class="panel-collapse collapse in" role="tabpanel">
+                  <div class="panel-body">
+                    {{ range $event := $element.events}}
+                        <div class="event-header">
+                            <div>{{ $event.type }}</div>
+                            {{ with $event.artist }}
+                                <div>&nbsp- {{ . }} </div>
+                            {{ end }}
+                            <div class="dummy"></div>
+                            {{ with $event.time}}
+                                <div>{{ . }}</div>
+                            {{ end }}
+                        </div>
+                        {{ with $event.description}}
+                            <div>{{ . }}</div>
+                        {{ end }}
+                    {{ end }}
+                  </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
     </div>
 </section>
 {{ end }}

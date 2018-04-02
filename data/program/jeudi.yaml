@@ -1,0 +1,8 @@
+date: "Jeudi 24 Novembre 2016"
+order: 1
+events:
+  - event:
+    type: "Concert"
+    artist: "Duo Solaris (Jérémy Peret & Florian Larousse)"
+    time: "20h30"
+    description: "De Falla, Bogdnanovic, Piazzolla, etc"
