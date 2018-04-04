@@ -3,6 +3,7 @@ order: 1
 events:
   - event:
     type: "Concert"
+    icon: "img/custom/logo_concert.png"
     artist: "Duo Solaris (Jérémy Peret & Florian Larousse)"
     time: "20h30"
     description: "De Falla, Bogdnanovic, Piazzolla, etc"

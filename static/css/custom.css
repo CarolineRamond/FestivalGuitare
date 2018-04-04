@@ -152,10 +152,33 @@
 section.custom-section {
 	padding: 40px 0;
 	margin: 0;
-	background-color: white;
+	background-color: #E0E0E0;
 	background-image: url("../img/custom/logo-cropped-gris.png");
 	background-repeat: no-repeat;
 	position: relative;
+}
+
+#tarifs.custom-section {
+	background-color: #734C68;
+	background-image: none;
+}
+
+
+.section-header {
+	padding: 40px;
+	background-color: #734C68;	
+}
+
+.section-title {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#program {
+    color: #555;
 }
 
 #program #program-accordion .panel-default {
@@ -164,28 +187,126 @@ section.custom-section {
 
 #program #program-accordion .panel-default>.panel-heading {
 	background-color: transparent;
-	border-bottom: 1px solid rgb(224,224,224);
+	border-bottom: 1px solid #734C68;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #888;
     padding: 10px 0;
+}
+
+
+#program #program-accordion .panel-title {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
 }
 
 #program #program-accordion .panel-title a {
 	font-size: 15px;
 	text-decoration: none;
+	color: #734C68;
+	font-weight: bold;
 }
 
 #program #program-accordion .panel-title a:hover {
-    color: #888;
+    color: #734C68;
 }
 
-#program #program-accordion .event-header {
+#program #program-accordion .event:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+#program #program-accordion .event .event-header {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-#program #program-accordion .event-header .dummy {
+#program #program-accordion .event .event-header .event-header-icon {
+    width: 36px;
+    height: 36px;
+    margin: 8px;
+}
+
+#program #program-accordion .event .event-header .event-header-title {
+	font-size: 18px;
+}
+
+#program #program-accordion .event .event-header .event-header-time {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#program #program-accordion .event .event-header .dummy {
     display: flex;
     flex-grow: 1;
+}
+
+#program #program-accordion .event .event-description {
+    margin-left: 54px;
+    margin-right: 70px;
+    margin-top: -8px;
+}
+
+#tarifs {
+	color: white;
+}
+
+#tarifs .tarifs-background {
+	opacity: 0.05;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('../img/custom/partition.jpg');
+}
+
+#tarifs .tarifs-row {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#tarifs .tarifs-row .tarifs-item {
+	width: 180px;
+	height: 200px;
+	margin: 0 20px 40px 20px;
+	background-color: white;
+    color: #555;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#tarifs .tarifs-row .tarifs-item .tarifs-item-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#tarifs .tarifs-row .tarifs-item .tarifs-item-infos {
+	font-size: 12px;
+}
+
+#tarifs .tarifs-row .tarifs-item .tarifs-item-button {
+	background-color: #666;
+	padding: 5px 15px;
+	letter-spacing: 1.2px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+#tarifs .tarifs-row .tarifs-item .tarifs-item-button:hover {
+	background-color: #999;
+}
+
+#tarifs .tarifs-row .tarifs-item .tarifs-item-button a {
+	color: white;
+	text-decoration: none;
 }

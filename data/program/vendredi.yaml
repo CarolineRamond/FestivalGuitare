@@ -3,19 +3,23 @@ order: 2
 events:
   - event:
     type: "Master Class"
+    icon: "img/custom/logo_master_class.png"
     artist: "Aniello Desiderio"
     time: "10h-13h"
   - event:
     type: "Master Class"
+    icon: "img/custom/logo_master_class.png"
     artist: "Atelier Déchiffrage Par Natalia Lipnitskaya"
     time: "15h"
     description: "Clefs et astuces pour développer la lecture musicale intérieure"
   - event:
     type: "Concert"
+    icon: "img/custom/logo_concert.png"
     artist: "Shin-Ichiro Tokunaga"
     time: "18h"
   - event:
     type: "Concert"
+    icon: "img/custom/logo_concert.png"
     artist: "Jérémy Jouve Avec Pierre Fouchenneret // Pavel Steidl"
     time: "20h30"
     description: "Mompou, Rodrigo, De Falla // Paganini, Legnani, Bach, Tirado"
