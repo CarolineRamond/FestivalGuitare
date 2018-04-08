@@ -147,6 +147,10 @@ paginate = 10
     enable = true
     title= "Tarifs & Réservation"
 
+[params.archives]
+    enable = true
+    title= "Archives"
+
 [params.testimonials]
     enable = true
     # All testimonials are defined in their own files. You can find example items

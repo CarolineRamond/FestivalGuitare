@@ -1,0 +1,42 @@
+{{ if isset .Site.Params "archives" }}
+{{ if .Site.Params.archives.enable }}
+<section id="archives" class="white-section">
+
+    <div class="strings">
+        <div class="string" style="opacity:0.2;"></div>
+        <div class="string" style="opacity:0.2;"></div>
+        <div class="string" style="opacity:0.2;"></div>
+        <div class="string" style="opacity:0.15;"></div>
+        <div class="string" style="opacity:0.15;"></div>
+        <div class="string" style="opacity:0.1;"></div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="section-title">
+                {{ .Site.Params.archives.title }}
+            </div>
+
+                <div class="archives-container">
+                    {{ range .Site.Data.archives }}
+                        <div class="archives-item col-md-4">
+                            <a href="https://fr.wiktionary.org/wiki/test">
+                                <div class="archives-item-thumbnail">
+                                    <div class="archives-item-thumbnail-filter"></div>
+                                    <img src="{{ .thumbnail }}">
+                                </div>
+                                 <div class="archives-item-title">
+                                    {{ .title }}
+                                </div>
+                            </a>
+                        </div>
+                    {{ end }}
+                </div>
+
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

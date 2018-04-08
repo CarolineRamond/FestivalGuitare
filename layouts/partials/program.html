@@ -1,7 +1,7 @@
 {{ if isset .Site.Params "program" }}
 {{ if .Site.Params.program.enable }}
 {{ if gt (len .Site.Data.program) 0 }}
-<section class="custom-section" id="program">
+<section class="white-section" id="program">
 
     <div class="strings">
         <div class="string" style="opacity:0.2;"></div>
@@ -11,8 +11,7 @@
         <div class="string" style="opacity:0.15;"></div>
         <div class="string" style="opacity:0.1;"></div>
     </div>
-
-
+            
     <div class="container">
         <div class="row">
 
@@ -37,7 +36,7 @@
                             </a>
                           </div>
                         </div>
-                        <div id="collapse-{{$index}}" class="panel-collapse collapse in" role="tabpanel">
+                        <div id="collapse-{{$index}}" class="panel-collapse collapse" role="tabpanel">
                           <div class="panel-body">
                             {{ range $event := $element.events}}
                                 <div class="event">
