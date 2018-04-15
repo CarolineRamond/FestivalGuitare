@@ -1,12 +1,4 @@
-/* global $this: true */
-/* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
-if ($.cookie('themeCSSpath')) {
-  $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
-}
-if ($.cookie('themeLayout')) {
-  $('body').addClass($.cookie('themeLayout'))
-}
 
 $(function () {
   sliderHomepage()
@@ -93,13 +85,6 @@ function sliderHomepage () {
 /* sliders */
 function sliders () {
   if ($('.owl-carousel').length) {
-    $('.customers').owlCarousel({
-      items: 6,
-      itemsDesktopSmall: [990, 4],
-      itemsTablet: [768, 2],
-      itemsMobile: [480, 1]
-    })
-
     $('.testimonials').owlCarousel({
       items: 4,
       itemsDesktopSmall: [990, 3],
@@ -119,22 +104,17 @@ function sliders () {
       lazyLoad: true
     })
 
-    $('.homepage').owlCarousel({
-      navigation: false, // Show next and prev buttons
-      navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-      slideSpeed: 2000,
+    $('.artists').owlCarousel({
+      navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fa fa-2x fa-angle-left"></i>', '<i class="fa fa-2x fa-angle-right"></i>'],
+      slideSpeed: 500,
       paginationSpeed: 1000,
       autoPlay: true,
       stopOnHover: true,
       singleItem: true,
       lazyLoad: false,
       addClassActive: true,
-      afterInit: function () {
-        // animationsSlider()
-      },
-      afterMove: function () {
-        // animationsSlider()
-      }
+      loop: true,
     })
   }
 }

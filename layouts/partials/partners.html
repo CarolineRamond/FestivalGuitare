@@ -1,0 +1,20 @@
+<section id="partners" class="grey-section">
+    <div class="container">
+       <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    Un grand merci à nos partenaires
+                </div>
+                <div class="partners-container">
+                    {{ range .Site.Data.partners }}
+                        <div class="partners-item">
+                            <a href="{{ .url }}" target="_blank">
+                                <img src="{{ .image }}">
+                            </a>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

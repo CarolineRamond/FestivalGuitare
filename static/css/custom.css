@@ -41,9 +41,11 @@
 	border-right: 1px solid rgb(224,224,224);
 }
 
-.navbar ul.nav > li > a.navbar-link:hover {
+.navbar ul.nav > li > a.navbar-link:hover,
+.navbar ul.nav > li > a.navbar-link:focus {
 	color: black;
 	background-color: transparent;
+	outline: none;
 }
 
 section {
@@ -57,6 +59,7 @@ section {
 	background-color: white;
 	background-image: url("../img/custom/logo-cropped-gris.png");
 	background-repeat: no-repeat;
+	background-position-x: 75px;
 }
 
 .purple-section {
@@ -72,19 +75,58 @@ section {
 .strings {
 	position: absolute;
 	top: 0;
-	left: 2px;
+	left: -12px;
 	display: flex;
 	flex-direction: row;
 	height: 100%;
 }
 
-.strings .string{
+.strings .string {
 	height: 100%;
-	width: 1px;
+	width: 14px;
 	background-color: black;
-	margin: 0 2px;
+	margin: 0 7px;
 }
 
+.section-header {
+	padding: 40px;
+	background-color: #734C68;	
+}
+
+.section-title {
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+#parallax1 {
+	position: relative;
+	height: 800px;
+	background-image: url('../img/custom/background2.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#parallax1 .parallax-filter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(33,0,0,0.5);
+}
+
+#parallax2 {
+	height: 400px;
+	background-image: url('../img/custom/background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
 
 #home {
 	height: 100vh;
@@ -93,6 +135,14 @@ section {
 	justify-content: center;
 	align-items: center;
 	color: white;
+}
+
+#home .home-content {
+	margin-bottom: 50px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 #home .home-logo-container {
@@ -140,7 +190,12 @@ section {
 #home .home-subtitle {
 	font-size: 24px;
 	font-weight: bold;
-	margin-bottom: 70px;
+	margin-bottom: 10px;
+}
+
+#home .home-date,
+#home .home-place {
+	font-size: 18px;
 }
 
 #home .home-program-button {
@@ -174,23 +229,97 @@ section {
 	color: rgba(255,255,255, 0.5);
 }
 
-#tarifs.custom-section {
-	background-color: #734C68;
-	background-image: none;
+#about .about-content {
+	font-size: 18px;
+	/*text-align: center;*/
 }
 
-
-.section-header {
-	padding: 40px;
-	background-color: #734C68;	
+#about .about-content a {
+	color: #734C68;
+	font-weight: bold;
 }
 
-.section-title {
-	font-size: 24px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+#about .about-content a:hover {
+	color: #AD7D9F;
+	text-decoration: none;
+}
+
+#about .artists.owl-carousel {
+	margin: 40px 0;
+}
+
+#about .artists.owl-carousel .item {
+	background-color: black;
+	height: 400px;
+	position: relative;
+}
+
+#about .artists.owl-carousel .item img {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+#about .artists.owl-carousel .item .img-caption {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	padding: 10px;
 	text-align: center;
-	margin-bottom: 40px;
+}
+
+#about .artists.owl-carousel .item .img-caption .artist-name a {
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+#about .artists.owl-carousel .item .img-caption .artist-name a:hover {
+	color: #CCC;
+}
+
+#about .artists.owl-carousel .item .img-caption .artist-description {
+	font-size: 12px;
+}
+
+#about .artists.owl-theme .owl-controls .owl-page:hover span,
+#about .artists.owl-theme .owl-controls .owl-page.active span {
+	background-color: #734C68!important;
+}
+
+#about .artists.owl-theme .owl-buttons {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: calc(100% - 38px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	pointer-events: none;
+}
+
+#about .artists.owl-theme .owl-buttons .owl-prev,
+#about .artists.owl-theme .owl-buttons .owl-next {
+	background: none;
+	pointer-events: auto;
+}
+
+#about .artists.owl-theme .owl-buttons .owl-prev i,
+#about .artists.owl-theme .owl-buttons .owl-next i {
+	transition: color 0.2s ease-in-out;
+	color: white;
+	text-shadow: 1px 1px 5px #666;
+}
+
+#about .artists.owl-theme .owl-buttons .owl-prev:hover i,
+#about .artists.owl-theme .owl-buttons .owl-next:hover i {
+	color: #CCC;
 }
 
 
@@ -214,7 +343,7 @@ section {
 }
 
 #program #program-accordion .panel-title a {
-	font-size: 15px;
+	font-size: 18px;
 	text-decoration: none;
 	color: #734C68;
 	font-weight: bold;
@@ -374,10 +503,19 @@ section {
 	opacity: 0.2;
 }
 
-#contact {
-	height: 400px;
-	background-image: url('../img/custom/background.jpg');
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
+#partners .partners-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#partners .partners-container .partners-item {
+	margin: 16px;
+}
+
+#partners .partners-container .partners-item img{
+	height: 55px;
+	width: auto;
 }

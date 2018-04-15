@@ -97,7 +97,7 @@ paginate = 10
     email = "your@email.com"
 
     about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2017 - 2018, Association \"Vous avez dit guitare ?\"; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -123,6 +123,8 @@ paginate = 10
     background = "img/custom/background.jpg"
     title = "Festival de Guitare de Paris"
     subtitle = "XVème édition"
+    date = "Novembre 2016"
+    place = "Théâtre Adyar"
     logo="img/custom/logo.png"
 [params.homepage.download]
     label="Télécharger le programme 2016"

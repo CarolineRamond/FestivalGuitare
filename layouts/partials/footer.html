@@ -1,31 +1,7 @@
-<section id="partners" class="grey-section">
+<section id="footer">
     <div class="container">
-       <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    Un grand merci à nos partenaires
-                </div>
-                <div class="partners-container">
-                    {{ range .Site.Data.partners }}
-                        <div class="partner">
-                            <img src="{{ .image }}">
-                        </div>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="col-md-12">
-            {{ if isset .Site.Params "copyright" }}
-            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
-            {{ end }}
-            <p class="pull-right">
-              {{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
-              <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
-
-              {{ i18n "portedBy" }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>
-            </p>
+        <div class="col-md-12" style="text-align: center;">
+            {{ .Site.Params.copyright | safeHTML }}
         </div>
     </div>
 </section>
