@@ -135,6 +135,10 @@ paginate = 10
     tags = true
     search = true
 
+[params.about]
+    text="Depuis 2001, le Festival International de Guitare de Paris met à l'honneur des musiciens... <br/><br/> Organisé par l'association [Vous avez dit guitare ?](/faq) avec le soutien de <a href='http://fr.daddario.com/' target='_blank'>D'addario</a>, <a href='http://www.savarez.fr/' target='_blank'>Savarez</a>, <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> et des éditions <a href='https://www.henry-lemoine.com/' target='_blank'>Henry Lemoine</a>, ...<br/><br/> Pour cette édition 2016, nous sommes fiers d'accueillir ..."
+    facebook="https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401/"
+
 [params.carousel]
     enable = true
     # All carousel items are defined in their own files. You can find example items

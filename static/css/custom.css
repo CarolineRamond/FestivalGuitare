@@ -239,7 +239,8 @@ section {
 	font-weight: bold;
 }
 
-#about .about-content a:hover {
+#about .about-content a:hover,
+#about .about-content a:focus {
 	color: #AD7D9F;
 	text-decoration: none;
 }
@@ -350,7 +351,8 @@ section {
 }
 
 #program #program-accordion .panel-title a:hover {
-    color: #734C68;
+    color: #AD7D9F;
+	text-decoration: none;
 }
 
 #program #program-accordion .event:not(:last-child) {

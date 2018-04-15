@@ -11,15 +11,7 @@
                 Le festival
             </div>
             <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 about-content">
-                <p>
-                Depuis 2001, le Festival International de Guitare de Paris met à l'honneur des musiciens ...
-                </p>
-                <p>
-                Organisé par l'association <a href="/faq">"Vous avez dit guitare ?"</a> avec le soutien de <a>D'addario</a>, <a>Savarez</a>, <a>La Guitarreria</a> et des <a>éditions Henry Lemoine</a>, ...
-                </p>
-                <p>
-                Pour cette édition 2016, nous sommes fiers d'accueillir ...
-                </p>
+                {{ .Site.Params.about.text | markdownify }}
 
                 <div class="artists owl-carousel">
                     {{ range .Site.Data.artists }}
@@ -27,7 +19,7 @@
                             <img src="{{ .image }}" alt="">
                             <div class="img-caption">
                                 <div class="artist-name">
-                                    <a href="{{ .url }}">{{ .name }}</a>
+                                    <a href="{{ .url }}" target="_blank">{{ .name }}</a>
                                 </div>
                                 {{ with .description }}
                                     <div class="artist-description">{{ . }}</div>
@@ -37,7 +29,7 @@
                     {{ end }}
                 </div>
                 <p>
-                Pour ne rien manquer du Festival et de ses actualités, rejoignez-nous sur <a>Facebook</a> !
+                Pour ne rien manquer du Festival et de ses actualités, rejoignez-nous sur <a href="{{ .Site.Params.about.facebook }}" target="_blank">Facebook</a> !
                 </p>
             </div>
         </div>
