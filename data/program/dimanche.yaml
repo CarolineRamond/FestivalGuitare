@@ -3,17 +3,17 @@ order: 4
 events:
   - event:
     type: "Salon de Lutherie"
-    icon: "img/custom/logo_lutherie.png"
+    icon: "img/logos/logo_lutherie.png"
     time: "10h-16h30"
     description: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
   - event:
     type: "Salon de lutherie"
-    icon: "img/custom/logo_lutherie.png"
+    icon: "img/logos/logo_lutherie.png"
     artist: "Présentation des instruments"
     time: "11h"
   - event:
     type: "Concert"
-    icon: "img/custom/logo_concert.png"
+    icon: "img/logos/logo_concert.png"
     artist: "Duo Golz&Danilov (Sören Golz & Ivan Danilov) // Aniello Desiderio"
     time: "17h30"
     description: "Albeniz, Assad, Piazzolla // Turina, Coste, Albeniz, Guiliani"

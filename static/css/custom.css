@@ -57,7 +57,7 @@ section {
 .white-section {
 	color: #555;
 	background-color: white;
-	background-image: url("../img/custom/logo-cropped-gris.png");
+	background-image: url("../img/logos/logo-cropped-gris.png");
 	background-repeat: no-repeat;
 	background-position-x: 75px;
 }
@@ -105,7 +105,7 @@ section {
 #parallax1 {
 	position: relative;
 	height: 800px;
-	background-image: url('../img/custom/background2.jpg');
+	background-image: url('../img/backgrounds/background2.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -122,7 +122,7 @@ section {
 
 #parallax2 {
 	height: 400px;
-	background-image: url('../img/custom/background.jpg');
+	background-image: url('../img/backgrounds/background.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -398,7 +398,7 @@ section {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: url('../img/custom/partition.jpg');
+	background-image: url('../img/backgrounds/partition.jpg');
 }
 
 #tarifs .tarifs-row {
@@ -518,6 +518,10 @@ section {
 }
 
 #partners .partners-container .partners-item img{
-	height: 55px;
+	height: 45px;
 	width: auto;
+}
+
+#partners .partners-container .partners-item:hover img{
+	opacity: 0.7
 }

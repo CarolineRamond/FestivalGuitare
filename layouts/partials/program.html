@@ -1,5 +1,4 @@
 {{ if isset .Site.Params "program" }}
-{{ if .Site.Params.program.enable }}
 {{ if gt (len .Site.Data.program) 0 }}
 <section class="white-section" id="program">
 
@@ -23,10 +22,10 @@
                         <div class="panel-heading" role="tab" id="headingOne">
                           <div class="panel-title">
                             <a role="button" data-toggle="collapse" 
-                                href="#collapse-{{$index}}" aria-expanded="true">
+                                href="#collapse-{{$index}}" aria-expanded="true"
+                                style="display:flex;flex-grow:1;">
                               {{ $element.date }}
                             </a>
-                            <div style="flex-grow:1"></div>
                             <a role="button" data-toggle="collapse" 
                                 href="#collapse-{{$index}}" aria-expanded="true">
                               <i class="fa fa-angle-down"></i>
@@ -64,6 +63,5 @@
         </div>
     </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
