@@ -1,5 +1,6 @@
 {{ if isset .Site.Params "program" }}
 {{ if gt (len .Site.Data.program) 0 }}
+{{ $lang := .Site.Language.Lang }}
 <section class="white-section" id="program">
 
     <div class="strings">
@@ -24,7 +25,7 @@
                             <a role="button" data-toggle="collapse" 
                                 href="#collapse-{{$index}}" aria-expanded="true"
                                 style="display:flex;flex-grow:1;">
-                              {{ $element.date }}
+                              {{ index $element.date $lang }}
                             </a>
                             <a role="button" data-toggle="collapse" 
                                 href="#collapse-{{$index}}" aria-expanded="true">
@@ -39,7 +40,7 @@
                                     <div class="event-header">
                                         <img src="{{ $event.icon }}" class="event-header-icon"/>
                                         <div class="event-header-title">
-                                            {{ $event.type }}
+                                            {{ index $event.type $lang }}
                                             {{ with $event.artist }}
                                                 <span>&nbsp- {{ . }} </span>
                                             {{ end }}
@@ -50,7 +51,7 @@
                                         {{ end }}
                                     </div>
                                     {{ with $event.description}}
-                                        <div class="event-description">{{ . }}</div>
+                                        <div class="event-description">{{ index . $lang }}</div>
                                     {{ end }}
                                 </div>
                             {{ end }}

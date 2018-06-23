@@ -1,30 +1,48 @@
-date: "Samedi 26 Novembre 2016"
+date: 
+    fr: "Samedi 1er Décembre 2018"
+    en: "Saturday December 1st 2018"
 order: 3
 events:
   - event:
-    type: "Master Class"
+    type: 
+        fr: "Master Class"
+        en: "Master Class"
     icon: "img/logos/logo_master_class.png"
     artist: "Pavel Steidl"
     time: "10h-13h"
   - event:
-    type: "Salon de Lutherie"
+    type: 
+        fr: "Salon de Lutherie"
+        en: "Instrument Making Exhibition"
     icon: "img/logos/logo_lutherie.png"
     time: "12h-19h"
-    description: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
+    description: 
+        fr: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
+        en: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
   - event:
-    type: "Concert"
+    type: 
+        fr: "Concert"
+        en: "Concert"
     icon: "img/logos/logo_concert.png"
     artist: "Guitares À Suivre"
     time: "15h"
-    description: "Blandine Bénart, YiTe Chang, François-Xavier Dangremont, Rémy Patel, Duodecim (Margot Fontana & Rémi Guirimand)"
+    description: 
+        fr: "Blandine Bénart, YiTe Chang, François-Xavier Dangremont, Rémy Patel, Duodecim (Margot Fontana & Rémi Guirimand)"
+        en: "Blandine Bénart, YiTe Chang, François-Xavier Dangremont, Rémy Patel, Duodecim (Margot Fontana & Rémi Guirimand)"
   - event:
-    type: "Concert"
+    type: 
+        fr: "Concert"
+        en: "Concert"
     icon: "img/logos/logo_concert.png"
     artist: "Rovshan Mamedkuliev"
     time: "18h"
   - event:
-    type: "Concert"
+    type: 
+        fr: "Concert"
+        en: "Concert"
     icon: "img/logos/logo_concert.png"
     artist: "SoloDuo (Matteo Mela & Lorenzo Micheli) // Paul Galbraith"
-    description: "Bellini, Debussy, Scarlatti // Bach, Mozart, Scriabin, Albeniz"
+    description: 
+        fr: "Bellini, Debussy, Scarlatti // Bach, Mozart, Scriabin, Albeniz"
+        en: "Bellini, Debussy, Scarlatti // Bach, Mozart, Scriabin, Albeniz"
     time: "20h30"

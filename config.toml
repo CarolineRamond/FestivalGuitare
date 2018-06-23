@@ -1,43 +1,80 @@
 baseurl = "https://example.org"
-title = "Festival de Guitare de Paris"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "fr"
 
+[languages]
+    [languages.en]
+    baseUrl = "/"
+    title="Paris International Guitar Festival"
+    [languages.fr]
+    baseUrl = "/"
+    title="Festival International de Guitare de Paris"
 
-# Define the number of posts per page
-paginate = 10
+# Main menu (fr) ===================
 
 [menu]
 
-# Main menu
-
-[[menu.main]]
+[[languages.fr.menu.main]]
     name = "Accueil"
     url  = "#home"
     weight = 1
 
-[[menu.main]]
+[[languages.fr.menu.main]]
     name = "Le Festival"
     url  = "#about"
     weight = 2
 
-[[menu.main]]
+[[languages.fr.menu.main]]
     name = "Programme"
     url  = "#program"
     weight = 3
 
-[[menu.main]]
+[[languages.fr.menu.main]]
     name = "Tarifs & Réservations"
     url  = "#tarifs"
     weight = 4
 
-[[menu.main]]
+[[languages.fr.menu.main]]
+    name = "Archives / Presse"
+    url  = "#archives"
+    weight = 5
+
+[[languages.fr.menu.main]]
+    name = "Contact"
+    url  = "#contact"
+    weight = 6
+
+
+# Main menu (en) ===================
+
+
+[[languages.en.menu.main]]
+    name = "Home"
+    url  = "#home"
+    weight = 1
+
+[[languages.en.menu.main]]
+    name = "About"
+    url  = "#about"
+    weight = 2
+
+[[languages.en.menu.main]]
+    name = "Program"
+    url  = "#program"
+    weight = 3
+
+[[languages.en.menu.main]]
+    name = "Prices & Bookings"
+    url  = "#tarifs"
+    weight = 4
+
+[[languages.en.menu.main]]
     name = "Archives"
     url  = "#archives"
     weight = 5
 
-[[menu.main]]
+[[languages.en.menu.main]]
     name = "Contact"
     url  = "#contact"
     weight = 6
@@ -49,20 +86,30 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-
 [params.homepage]
-    background = "img/backgrounds/background.jpg"
-    title = "Festival de Guitare de Paris"
+
+[languages.fr.homepage]
+    background = "img/backgrounds/background2.jpg"
+    title = "Festival International de Guitare de Paris"
     subtitle = "XVème édition"
-    date = "Novembre 2016"
-    place = "Théâtre Adyar"
+    date = "Novembre 2018"
+    place = "Théâtre de la Traversière"
+    logo="img/logos/logo.png"
+
+[languages.en.homepage]
+    background = "img/backgrounds/background2.jpg"
+    title = "Paris International Guitar Festival"
+    subtitle = "XVth edition"
+    date = "November 2018"
+    place = "Théâtre de la Traversière"
     logo="img/logos/logo.png"
 
 [params.homepage.download]
-    label="Télécharger le programme 2016"
+    label="Télécharger le programme 2018"
     path="img/backgrounds/background.jpg"
 
-[params.about]
+[languages.fr.about]
+    title="Le Festival"
     text="""<p>
         Depuis 2001, le Festival International de Guitare de Paris met à l'honneur des musiciens...
     </p>
@@ -76,16 +123,44 @@ paginate = 10
         <a href='https://www.henry-lemoine.com/' target='_blank'>Henry Lemoine</a>, 
         ...
     </p>
-    <p>Pour cette édition 2016, nous sommes fiers d'accueillir ...</p>
+    <p>Pour cette édition 2018, nous sommes fiers d'accueillir ...</p>
     """
-    facebook="https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401/"
+    facebook="""Pour ne rien manquer du programme et ses actualités, rejoignez-nous sur [Facebook](https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401) !"""
+
+[languages.en.about]
+    title="About the Festival"
+    text="""<p>
+        Since 2001, Paris International Guitar Festival puts the spotlight on musicians from all around the world...
+    </p>
+    <p>
+        It is organized by the association <a href="/faq">Vous avez dit guitare ?</a>
+        with the support of
+        <a href='http://fr.daddario.com/' target='_blank'>D'addario</a>, 
+        <a href='http://www.savarez.fr/' target='_blank'>Savarez</a>, 
+        <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> 
+        and 
+        <a href='https://www.henry-lemoine.com/' target='_blank'>Henry Lemoine</a>, 
+        ...
+    </p>
+    <p>For this 2018 session, we are pleased to welcome ...</p>
+    """
+    facebook="""Dont miss anything about the Festival ! Join us on [Facebook](https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401) !"""
 
 
-[params.program]
+[languages.fr.program]
     title= "Programme"
 
-[params.tarifs]
-    title= "Tarifs & Réservation"
+[languages.en.program]
+    title= "Program"
 
-[params.archives]
+[languages.fr.tarifs]
+    title= "Tarifs & Réservations"
+
+[languages.en.tarifs]
+    title= "Prices & Bookings"
+
+[languages.fr.archives]
+    title= "Archives"
+
+[languages.en.archives]
     title= "Archives"

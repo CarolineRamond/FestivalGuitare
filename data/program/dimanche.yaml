@@ -1,19 +1,31 @@
-date: "Dimanche 27 Novembre 2016"
+date: 
+    en: "Sunday December 2nd 2018"
+    fr: "Dimanche 2 Décembre 2018"
 order: 4
 events:
   - event:
-    type: "Salon de Lutherie"
+    type: 
+        fr: "Salon de Lutherie"
+        en: "Instrumental Making Exhibition"
     icon: "img/logos/logo_lutherie.png"
     time: "10h-16h30"
-    description: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
+    description: 
+        fr: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
+        en: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
   - event:
-    type: "Salon de lutherie"
+    type: 
+        fr: "Salon de Lutherie"
+        en: "Instrumental Making Exhibition"
     icon: "img/logos/logo_lutherie.png"
     artist: "Présentation des instruments"
     time: "11h"
   - event:
-    type: "Concert"
+    type: 
+        fr: "Concert"
+        en: "Concert"
     icon: "img/logos/logo_concert.png"
     artist: "Duo Golz&Danilov (Sören Golz & Ivan Danilov) // Aniello Desiderio"
     time: "17h30"
-    description: "Albeniz, Assad, Piazzolla // Turina, Coste, Albeniz, Guiliani"
+    description: 
+        fr: "Albeniz, Assad, Piazzolla // Turina, Coste, Albeniz, Guiliani"
+        en: "Albeniz, Assad, Piazzolla // Turina, Coste, Albeniz, Guiliani"

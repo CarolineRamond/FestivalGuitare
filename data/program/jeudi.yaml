@@ -1,9 +1,15 @@
-date: "Jeudi 24 Novembre 2016"
+date: 
+  fr: "Jeudi 29 Novembre 2018 - Hommage à Isabel Gomez"
+  en: "Thursday November 29th 2018 - Tribute to Isabel Gomez"
 order: 1
 events:
   - event:
-    type: "Concert"
+    type: 
+      fr: "Concert"
+      en: "Concert"
     icon: "img/logos/logo_concert.png"
     artist: "Duo Solaris (Jérémy Peret & Florian Larousse)"
     time: "20h30"
-    description: "De Falla, Bogdnanovic, Piazzolla, etc"
+    description: 
+      fr: "De Falla, Bogdnanovic, Piazzolla, etc"
+      en: "De Falla, Bogdnanovic, Piazzolla, etc"

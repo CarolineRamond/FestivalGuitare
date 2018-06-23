@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="section-title">
-                Le festival
+                {{ .Site.Params.about.title }}
             </div>
             <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 about-content">
                 {{ .Site.Params.about.text | markdownify }}
@@ -29,7 +29,7 @@
                     {{ end }}
                 </div>
                 <p>
-                Pour ne rien manquer du Festival et de ses actualités, rejoignez-nous sur <a href="{{ .Site.Params.about.facebook }}" target="_blank">Facebook</a> !
+                    {{ .Site.Params.about.facebook | markdownify }}
                 </p>
             </div>
         </div>
