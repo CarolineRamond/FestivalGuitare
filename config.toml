@@ -1,14 +1,15 @@
-baseurl = "https://example.org"
+baseUrl = "https://carolineramond.github.io/FestivalGuitare/"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "fr"
+publishDir = "docs"
 
 [languages]
     [languages.en]
-    baseUrl = "/"
+    baseUrl = "https://carolineramond.github.io/FestivalGuitare/en/"
     title="Paris International Guitar Festival"
     [languages.fr]
-    baseUrl = "/"
+    baseUrl = "https://carolineramond.github.io/FestivalGuitare/"
     title="Festival International de Guitare de Paris"
 
 # Main menu (fr) ===================
