@@ -71,7 +71,7 @@ publishDir = "docs"
     weight = 4
 
 [[languages.en.menu.main]]
-    name = "Archives"
+    name = "Archives / Press"
     url  = "#archives"
     weight = 5
 
@@ -83,6 +83,9 @@ publishDir = "docs"
 
 [params]
     copyright = "Copyright (c) 2018, Association \"Vous avez dit guitare ?\"; all rights reserved."
+    telephone = "01.46.80.03.53"
+    portable = "06.29.27.20.83"
+    reservation = "zozi.com"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -93,16 +96,16 @@ publishDir = "docs"
     background = "img/backgrounds/background2.jpg"
     title = "Festival International de Guitare de Paris"
     subtitle = "XVème édition"
-    date = "Novembre 2018"
-    place = "Théâtre de la Traversière"
+    date = """29-30 Novembre 2018<br>1-2 Décembre 2018"""
+    place = "Espace Traversière"
     logo="img/logos/logo.png"
 
 [languages.en.homepage]
     background = "img/backgrounds/background2.jpg"
     title = "Paris International Guitar Festival"
     subtitle = "XVth edition"
-    date = "November 2018"
-    place = "Théâtre de la Traversière"
+    date = """November 29th-30th 2018<br>December 1st-2nd 2018"""
+    place = "Espace Traversière"
     logo="img/logos/logo.png"
 
 [params.homepage.download]
@@ -150,9 +153,11 @@ publishDir = "docs"
 
 [languages.fr.program]
     title= "Programme"
+    default="Programme bientôt disponible"
 
 [languages.en.program]
     title= "Program"
+    default="Program soon available"
 
 [languages.fr.tarifs]
     title= "Tarifs & Réservations"
@@ -161,7 +166,50 @@ publishDir = "docs"
     title= "Prices & Bookings"
 
 [languages.fr.archives]
-    title= "Archives"
+    title= "Archives / Presse"
 
 [languages.en.archives]
-    title= "Archives"
+    title= "Archives / Press"
+
+[languages.fr.contact]
+    title= "Contact"
+    place_title="Se rendre au festival"
+    place="""Espace Traversière<br>
+    15 bis Rue Traversière, 75012 Paris<br>
+    Métro Rapée / RER Gare de Lyon
+    """
+    resa_title="Réservations"
+    resa="""Par téléphone au <span class="telephone-number">06.29.27.20.83</span><br>
+    ou au <span class="telephone-number">01.46.80.03.53.</span><br>
+    Réservation par internet bientôt disponible.
+    """
+    asso_title="L'Association"
+    asso="""Le festival est organisé par l'association <br>"Vous avez dit guitare ?".<br>
+    Pour en savoir plus : <a href="/faq">/association</a><br>
+    Adhérez à l'association : <a href="/faq">/association</a>
+    """
+
+[languages.en.contact]
+    title= "Contact"
+    place_title="How to reach the festival"
+    place="""Espace Traversière<br>
+    15 bis Rue Traversière, 75012 Paris<br>
+    Métro Rapée / RER Gare de Lyon
+    """
+    resa_title="Bookings"
+    resa="""By phone : <span class="telephone-number">06.29.27.20.83</span><br>
+    or <span class="telephone-number">01.46.80.03.53.</span><br>
+    Online booking soon available.
+    """
+    asso_title="Our Association"
+    asso="""The festival is organized by the association <br>"Vous avez dit guitare ?".<br>
+    Learn more : <a href="/faq">/association</a><br>
+    Join the association : <a href="/faq">/association</a>
+    """
+
+[languages.fr.partners]
+    title= "Un grand merci à nos partenaires"
+
+[languages.en.partners]
+    title= "Many thanks to our partners"
+

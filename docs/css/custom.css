@@ -1,4 +1,10 @@
 /* your styles go here */
+.telephone-number {
+	letter-spacing: 1.5px;
+	font-weight: bolder;
+	margin: 0 4px;
+}
+
 .navbar-affixed-top {
 	position: fixed;
 	top: 0;
@@ -236,13 +242,16 @@ section {
 	/*text-align: center;*/
 }
 
-#about .about-content a {
+#about .about-content a,
+#contact .contact-content a {
 	color: #734C68;
 	font-weight: bold;
 }
 
 #about .about-content a:hover,
-#about .about-content a:focus {
+#about .about-content a:focus,
+#contact .contact-content a:hover,
+#contact .contact-content a:focus {
 	color: #AD7D9F;
 	text-decoration: none;
 }
@@ -426,7 +435,12 @@ section {
     text-align: center;
 }
 
-#tarifs .tarifs-row .tarifs-item .tarifs-item-title {
+#contact .contact-item {
+	margin-bottom: 20px;
+}
+
+#tarifs .tarifs-row .tarifs-item .tarifs-item-title,
+#contact .contact-item .contact-item-title {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 10px;
@@ -527,3 +541,46 @@ section {
 #partners .partners-container .partners-item:hover img{
 	opacity: 0.7
 }
+
+#contact .contact-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact .contact-container .contact-content {
+	padding: 0px 30px 0px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#contact .contact-container .map-container {
+	width: 90%;
+}
+
+@media (min-width: 768px) {
+	#contact .contact-container {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	#contact .contact-container .contact-content {
+		display: flex;
+		align-items: flex-start;
+		justify-content: flex-start;
+		padding: 0px 30px 0px 15px;
+		text-align: start;
+		flex-shrink: 0;
+	}
+
+	#contact .contact-container .map-container {
+		display: flex;
+		flex-grow: 1;
+	}
+}
+
+

@@ -1,6 +1,7 @@
 {{ if isset .Site.Params "program" }}
 {{ if gt (len .Site.Data.program) 0 }}
 {{ $lang := .Site.Language.Lang }}
+{{ $data := .Site.Params.program }}
 <section class="white-section" id="program">
 
     <div class="strings">
@@ -13,7 +14,7 @@
         <div class="row">
 
             <div class="section-title">
-                {{ .Site.Params.program.title }}
+                {{ $data.title }}
             </div>
 
             <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
@@ -35,7 +36,8 @@
                         </div>
                         <div id="collapse-{{$index}}" class="panel-collapse collapse" role="tabpanel">
                           <div class="panel-body">
-                            {{ range $event := $element.events}}
+                            {{ $data.default }}
+                            <!-- {{ range $event := $element.events}}
                                 <div class="event">
                                     <div class="event-header">
                                         <img src="{{ $event.icon }}" class="event-header-icon"/>
@@ -54,7 +56,7 @@
                                         <div class="event-description">{{ index . $lang }}</div>
                                     {{ end }}
                                 </div>
-                            {{ end }}
+                            {{ end }} -->
                           </div>
                         </div>
                     </div>

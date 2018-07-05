@@ -23,7 +23,7 @@
             <div class="home-subtitle">{{.}}</div>
         {{ end }}
 
-        {{ with .Site.Params.homepage.date }}
+        {{ with .Site.Params.homepage.date | markdownify }}
             <div class="home-date">{{.}}</div>
         {{ end }}
 

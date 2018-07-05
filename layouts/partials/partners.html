@@ -2,8 +2,8 @@
     <div class="container">
        <div class="row">
             <div class="col-md-12">
-                <div class="section-title">
-                    Un grand merci à nos partenaires
+                <div class="section-title" style="margin-bottom: 20px;">
+                    {{ .Site.Params.partners.title }}
                 </div>
                 <div class="partners-container">
                     {{ range .Site.Data.partners }}
