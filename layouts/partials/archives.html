@@ -1,4 +1,5 @@
 {{ if isset .Site.Params "archives" }}
+{{ $lang := .Site.Language.Lang }}
 <section id="archives" class="white-section">
 
     <div class="strings">
@@ -18,13 +19,13 @@
                 <div class="archives-container">
                     {{ range .Site.Data.archives }}
                         <div class="archives-item col-md-4">
-                            <a href="https://fr.wiktionary.org/wiki/test">
+                            <a href="#archivesModal{{ .modalID }}" class="photo-box" data-toggle="modal" data-keyboard="false">
                                 <div class="archives-item-thumbnail">
                                     <div class="archives-item-thumbnail-filter"></div>
                                     <img src="{{ .thumbnail }}">
                                 </div>
                                  <div class="archives-item-title">
-                                    {{ .title }}
+                                    {{ index .title $lang }}
                                 </div>
                             </a>
                         </div>

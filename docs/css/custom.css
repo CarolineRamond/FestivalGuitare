@@ -5,6 +5,10 @@
 	margin: 0 4px;
 }
 
+.photo-box:focus {
+	outline: none;
+}
+
 .navbar-affixed-top {
 	position: fixed;
 	top: 0;
@@ -243,15 +247,15 @@ section {
 }
 
 #about .about-content a,
-#contact .contact-content a {
+#infos .infos-content a {
 	color: #734C68;
 	font-weight: bold;
 }
 
 #about .about-content a:hover,
 #about .about-content a:focus,
-#contact .contact-content a:hover,
-#contact .contact-content a:focus {
+#infos .infos-content a:hover,
+#infos .infos-content a:focus {
 	color: #AD7D9F;
 	text-decoration: none;
 }
@@ -435,12 +439,12 @@ section {
     text-align: center;
 }
 
-#contact .contact-item {
+#infos .infos-item {
 	margin-bottom: 20px;
 }
 
 #tarifs .tarifs-row .tarifs-item .tarifs-item-title,
-#contact .contact-item .contact-item-title {
+#infos .infos-item .infos-item-title {
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 10px;
@@ -542,13 +546,13 @@ section {
 	opacity: 0.7
 }
 
-#contact .contact-container {
+#infos .infos-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-#contact .contact-container .contact-content {
+#infos .infos-container .infos-content {
 	padding: 0px 30px 0px 15px;
 	display: flex;
 	flex-direction: column;
@@ -556,19 +560,19 @@ section {
 	text-align: center;
 }
 
-#contact .contact-container .map-container {
+#infos .infos-container .map-container {
 	width: 90%;
 }
 
 @media (min-width: 768px) {
-	#contact .contact-container {
+	#infos .infos-container {
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
 		justify-content: flex-start;
 	}
 
-	#contact .contact-container .contact-content {
+	#infos .infos-container .infos-content {
 		display: flex;
 		align-items: flex-start;
 		justify-content: flex-start;
@@ -577,10 +581,107 @@ section {
 		flex-shrink: 0;
 	}
 
-	#contact .contact-container .map-container {
+	#infos .infos-container .map-container {
 		display: flex;
 		flex-grow: 1;
 	}
 }
+
+.my-modal .modal-content {
+	border-radius: 0;
+	border: none;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+.my-modal .modal-content .my-modal-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	height: 100px;
+	width: 100%;
+	padding: 40px 0;
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.my-modal .modal-content .my-modal-close-button {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	cursor: pointer;
+}
+
+.my-modal .modal-content .my-modal-content {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	padding: 16px 32px;
+	overflow-y: scroll;
+	height: calc( 100% - 100px );
+	width: 100%;
+}
+
+.my-modal .modal-content .my-modal-content .img-columns {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.my-modal .modal-content .my-modal-content .poster-columns {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.my-modal .modal-content .my-modal-content .poster-img {
+	width: 25%;
+	padding: 0 8px 8px 0;
+}
+
+.my-modal .modal-content .my-modal-content .poster-img img {
+	width: 100%;
+	height: auto;
+	border-radius: 1%;
+	transition: opacity 0.15s ease-in-out;
+}
+
+.my-modal .modal-content .my-modal-content .img-columns .modal-img {
+	position: relative;
+	flex: auto;
+	height: 200px;
+	margin: 0 8px 8px 0;
+	min-width: 100px;
+}
+
+.my-modal .modal-content .my-modal-content .img-columns .modal-img img.dummy {
+	height: 100%;
+	opacity: 0;
+}
+
+.my-modal .modal-content .my-modal-content .img-columns .modal-img img.real {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 1%;
+	transition: opacity 0.15s ease-in-out;
+}
+
+.my-modal .modal-content .my-modal-content .img-columns .modal-img img.real:hover,
+.my-modal .modal-content .my-modal-content .poster-img img:hover {
+	opacity: 0.8;
+}
+
+
 
 

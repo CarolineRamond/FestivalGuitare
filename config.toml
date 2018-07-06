@@ -42,8 +42,8 @@ publishDir = "docs"
     weight = 5
 
 [[languages.fr.menu.main]]
-    name = "Contact"
-    url  = "#contact"
+    name = "Infos Pratiques"
+    url  = "#infos"
     weight = 6
 
 
@@ -76,8 +76,8 @@ publishDir = "docs"
     weight = 5
 
 [[languages.en.menu.main]]
-    name = "Contact"
-    url  = "#contact"
+    name = "Information"
+    url  = "#infos"
     weight = 6
 
 
@@ -171,8 +171,8 @@ publishDir = "docs"
 [languages.en.archives]
     title= "Archives / Press"
 
-[languages.fr.contact]
-    title= "Contact"
+[languages.fr.infos]
+    title= "Infos Pratiques"
     place_title="Se rendre au festival"
     place="""Espace Traversière<br>
     15 bis Rue Traversière, 75012 Paris<br>
@@ -189,8 +189,8 @@ publishDir = "docs"
     Adhérez à l'association : <a href="/faq">/association</a>
     """
 
-[languages.en.contact]
-    title= "Contact"
+[languages.en.infos]
+    title= "Information"
     place_title="How to reach the festival"
     place="""Espace Traversière<br>
     15 bis Rue Traversière, 75012 Paris<br>

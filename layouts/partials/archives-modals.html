@@ -1,0 +1,48 @@
+{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ $lang := .Site.Language.Lang }}
+{{ range $archiveIndex, $archive := .Site.Data.archives }}
+<div class="modal fade my-modal" id="archivesModal{{ $archive.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content white-section">
+
+        <div class="strings">
+            <div class="string" style="opacity:0.1;"></div>
+            <div class="string" style="opacity:0.1;"></div>
+            <div class="string" style="opacity:0.1;"></div>
+        </div>
+
+
+        <div class="my-modal-header">
+            {{ index $archive.title $lang }}
+        </div>
+        <div class="my-modal-close-button" data-dismiss="modal">
+            X
+        </div>
+
+        <div class="my-modal-content">
+            <div class="container">
+                <div class="row">
+                    {{ if eq $archive.modalID "affiches" }}
+                        <div class="poster-columns col-md-10 col-md-offset-1 col-xl-8 col-xl-offset-2">
+                            {{ range $archive.list }}
+                                <div class="poster-img">
+                                    <img src="{{ . }}">
+                                </div>
+                            {{ end }}
+                        </div>
+                    {{ else }}
+                        <div class="img-columns col-md-10 col-md-offset-1 col-xl-8 col-xl-offset-2">
+                            {{ range $archive.list }}
+                                <div class="modal-img">
+                                    <img src="{{ . }}" class="dummy">
+                                    <img src="{{ . }}" class="real">
+                                </div>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{{ end }}

@@ -1,2 +1,21 @@
-title: "Les Affiches"
+modalID: "affiches"
+title: 
+  fr: "Les Affiches"
+  en: "Posters"
 thumbnail: "img/backgrounds/background.jpg"
+list:
+  - "img/archives/affiches/01_edition.jpg"
+  - "img/archives/affiches/02_edition.jpg"
+  - "img/archives/affiches/03_edition.jpg"
+  - "img/archives/affiches/04_edition.jpg"
+  - "img/archives/affiches/05_edition.jpg"
+  - "img/archives/affiches/06_edition.jpg"
+  - "img/archives/affiches/07_edition.jpg"
+  - "img/archives/affiches/08_edition.jpg"
+  - "img/archives/affiches/09_edition.jpg"
+  - "img/archives/affiches/10_edition.jpg"
+  - "img/archives/affiches/11_edition.jpg"
+  - "img/archives/affiches/12_edition.jpg"
+  - "img/archives/affiches/13_edition.jpg"
+  - "img/archives/affiches/14_edition.jpg"
+
