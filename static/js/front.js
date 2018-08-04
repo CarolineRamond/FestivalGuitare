@@ -258,7 +258,7 @@ function utils () {
     var parts = fullUrl.split('#')
     var trgt = parts[1]
     var targetOffset = $('#' + trgt).offset()
-    var targetTop = targetOffset.top - 100
+    var targetTop = targetOffset.top - 70
 
     if (targetTop < 0) {
       targetTop = 0
