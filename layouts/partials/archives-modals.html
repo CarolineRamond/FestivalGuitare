@@ -31,11 +31,15 @@
                         </div>
                     {{ else }}
                         <div class="img-columns col-md-10 col-md-offset-1 col-xl-8 col-xl-offset-2">
-                            {{ range $archive.list }}
-                                <div class="modal-img">
+                            {{ range $imageIndex, $image := $archive.list }}
+                                <a class="modal-img" 
+                                    href="#archivesCarousel{{ $archive.modalID }}" 
+                                    data-toggle="modal" data-keyboard="false"
+                                    onClick="goToImageInCarousel({{$archive.modalID}}, {{$imageIndex}})"
+                                >
                                     <img src="{{ . }}" class="dummy">
                                     <img src="{{ . }}" class="real">
-                                </div>
+                                </a>
                             {{ end }}
                         </div>
                     {{ end }}
@@ -46,3 +50,12 @@
     </div>
 </div>
 {{ end }}
+
+<script type="text/javascript">
+    function goToImageInCarousel(archiveModalID, imageIndex) {
+        var carouselId = "#archivesCarousel" + archiveModalID;
+        var carousel = $(carouselId).find('.owl-carousel').first();
+        carousel.owlCarousel();
+        carousel.trigger('owl.goTo', [imageIndex]);
+    }
+</script>

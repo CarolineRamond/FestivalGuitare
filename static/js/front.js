@@ -116,6 +116,19 @@ function sliders () {
       addClassActive: true,
       loop: true,
     })
+
+
+    $('.archives-carousel').owlCarousel({
+      navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fa fa-2x fa-angle-left"></i>', '<i class="fa fa-2x fa-angle-right"></i>'],
+      slideSpeed: 500,
+      paginationSpeed: 1000,
+      autoPlay: false,
+      singleItem: true,
+      lazyLoad: true,
+      addClassActive: true,
+      loop: true,
+    })
   }
 }
 
