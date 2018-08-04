@@ -362,3 +362,22 @@ $(window).resize(function () {
     windowWidth = newWindowWidth
   }
 })
+
+$(document).ready(function () {
+      $(document).on("scroll", onScroll);
+});
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#navbar a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top - 70 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#navbar a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}

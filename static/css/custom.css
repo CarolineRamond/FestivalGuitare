@@ -32,12 +32,14 @@
     border-radius: 50%;
 }
 
-.navbar ul.nav > li > a.navbar-link {
+.navbar ul.nav > li > a.navbar-link,
+.navbar ul.nav > li > a.navbar-link:focus {
 	padding: 25px 15px;
 	font-size: 14px;
 	text-decoration: none;
 	text-transform: none;
 	font-weight: normal;
+	background-color: transparent;
 	color: #888;
 	border-top: none;
     height: 50px;
@@ -53,7 +55,7 @@
 }
 
 .navbar ul.nav > li > a.navbar-link:hover,
-.navbar ul.nav > li > a.navbar-link:focus {
+.navbar ul.nav > li > a.navbar-link.active {
 	color: black;
 	background-color: transparent;
 	outline: none;
