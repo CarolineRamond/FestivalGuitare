@@ -34,10 +34,10 @@
                             </a>
                           </div>
                         </div>
-                        <div id="collapse-{{$index}}" class="panel-collapse collapse" role="tabpanel">
+                        <div id="collapse-{{$index}}" class="panel-collapse collapse in" role="tabpanel">
                           <div class="panel-body">
-                            {{ $data.default }}
-                            <!-- {{ range $event := $element.events}}
+                            <!-- {{ $data.default }} -->
+                            {{ range $event := $element.events}}
                                 <div class="event">
                                     <div class="event-header">
                                         <img src="{{ $event.icon }}" class="event-header-icon"/>
@@ -56,7 +56,7 @@
                                         <div class="event-description">{{ index . $lang }}</div>
                                     {{ end }}
                                 </div>
-                            {{ end }} -->
+                            {{ end }}
                           </div>
                         </div>
                     </div>

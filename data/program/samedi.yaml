@@ -5,44 +5,32 @@ order: 3
 events:
   - event:
     type: 
-        fr: "Master Class"
-        en: "Master Class"
+        fr: "MasterClass"
+        en: "MasterClass"
     icon: "img/logos/logo_master_class.png"
-    artist: "Pavel Steidl"
+    artist: "Alvaro Pierri"
     time: "10h-13h"
   - event:
     type: 
-        fr: "Salon de Lutherie"
-        en: "Instrument Making Exhibition"
-    icon: "img/logos/logo_lutherie.png"
-    time: "12h-19h"
-    description: 
-        fr: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
-        en: "Sylvain Balestrieri, Fabien Ballon, Hugues Boivin, Simon Burgun, Emeline Chevalier, Yoann Charbonnier, Ivan Degtiarev, Pavel Gavryushov, Jérémie Geffroy, Hervé Lahoun, Julien Lebrun, Abel Mauroux, Philippe Mottet-Rio, Philippe Neumann, Olivier Pozzo, Pascal Quinson, Alain Raifort, Gaëlle Roffler"
-  - event:
-    type: 
         fr: "Concert"
         en: "Concert"
     icon: "img/logos/logo_concert.png"
-    artist: "Guitares À Suivre"
+    artist: "Guitares à Suivre"
     time: "15h"
     description: 
-        fr: "Blandine Bénart, YiTe Chang, François-Xavier Dangremont, Rémy Patel, Duodecim (Margot Fontana & Rémi Guirimand)"
-        en: "Blandine Bénart, YiTe Chang, François-Xavier Dangremont, Rémy Patel, Duodecim (Margot Fontana & Rémi Guirimand)"
+        fr: "Paul Sun, Johan Martin, Johan Dupont"
+        en: "Paul Sun, Johan Martin, Johan Dupont"
   - event:
     type: 
         fr: "Concert"
         en: "Concert"
     icon: "img/logos/logo_concert.png"
-    artist: "Rovshan Mamedkuliev"
-    time: "18h"
+    artist: "Raphaël Feuillâtre"
+    time: "17h"
   - event:
     type: 
         fr: "Concert"
         en: "Concert"
     icon: "img/logos/logo_concert.png"
-    artist: "SoloDuo (Matteo Mela & Lorenzo Micheli) // Paul Galbraith"
-    description: 
-        fr: "Bellini, Debussy, Scarlatti // Bach, Mozart, Scriabin, Albeniz"
-        en: "Bellini, Debussy, Scarlatti // Bach, Mozart, Scriabin, Albeniz"
+    artist: "Finale du 1er Concours International de Guitare “Alberto Ponce” de Paris // Juan Falù"
     time: "20h30"

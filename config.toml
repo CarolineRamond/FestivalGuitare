@@ -22,7 +22,7 @@ publishDir = "docs"
     weight = 1
 
 [[languages.fr.menu.main]]
-    name = "Le Festival"
+    name = "Edito"
     url  = "#about"
     weight = 2
 
@@ -113,22 +113,39 @@ publishDir = "docs"
     path="img/backgrounds/background.jpg"
 
 [languages.fr.about]
-    title="Le Festival"
+    title="Edito"
     text="""<p>
-        Depuis 2001, le Festival International de Guitare de Paris met à l'honneur des musiciens...
+        Cher(e)s ami(e)s,
     </p>
-    <p>
-        Organisé par l'association <a href="/faq">Vous avez dit guitare ?</a>
-        avec le soutien de 
-        <a href='http://fr.daddario.com/' target='_blank'>D'addario</a>, 
-        <a href='http://www.savarez.fr/' target='_blank'>Savarez</a>, 
-        <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> 
-        et des éditions 
-        <a href='https://www.henry-lemoine.com/' target='_blank'>Henry Lemoine</a>, 
-        ...
+    <p align="justify">
+        C’est avec un immense plaisir que nous nous retrouvons après une année d’interruption. Cette quinzième édition du Festival International de Guitare de Paris, qui aura lieu du 29 novembre au 2 décembre 2018, sera fidèle à l’esprit des quatorze premières : une programmation variée avec comme seule et unique ambition l’exigence artistique. 
     </p>
-    <p>Pour cette édition 2018, nous sommes fiers d'accueillir ...</p>
+    <p align="justify">
+        Cependant, cette quinzième édition ne ressemblera pas exactement aux autres. Tout d’abord, le Festival aura lieu pour la première fois cette année au théâtre Traversière (XII). Nous espérons que vous aussi apprécierez cette salle, nouvel écrin pour notre instrument. Ensuite, et c’est là un changement majeur, cette édition s’enrichira d’un concours international de guitare : le premier Concours International de Guitare « Alberto Ponce » de Paris. Cet événement permettra de mettre en lumière les talents de demain et donnera un souffle artistique et humain tout particulier à notre festival.
+    </p>
+    <p align="justify">
+        Nous espérons modestement qu’avec l’organisation de ce concours, la guitare à Paris retrouvera, davantage encore, la place qu’elle avait du temps de Robert J. Vidal, figure tutélaire sans qui le Festival de Guitare de Paris ne serait pas ce qu’il est.
+    </p>
+    <p align="justify">
+        Ce quinzième festival et tout spécialement la soirée du jeudi seront dédiés à la mémoire d’Isabel Gomez qui nous a quittés cette année. Isabel a illuminé le monde de la guitare par sa gentillesse, sa générosité hors du commun et son indéfectible passion pour notre instrument. Le Festival International de Guitare de Paris lui doit son existence.
+    </p>
+    <p align="justify">
+        Ainsi durant quatre jours, concerts, concours, master-class, conférences vous donneront à entendre, nous l’espérons, le meilleur de la guitare.
+        Nous tenons à remercier chaleureusement tous nos partenaires, 
+        <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> , 
+        <a href='https://www.henry-lemoine.com/' target='_blank'>les éditions Henry Lemoine</a>,
+        <a href='http://www.savarez.fr/' target='_blank'>les cordes Savarez</a>, 
+        <a href='http://fr.daddario.com/' target='_blank'>les cordes D'addario</a>, 
+        qui ont toujours cru en nous, même dans les moments difficiles.
+    </p>
+    <p align="justify">
+        Nous vous attendons impatiemment au théâtre Traversière à la fin du mois de novembre, Bonne rentrée à tous!
+    </p>
+    <p align="right">
+        L’équipe du Festival International de Guitare de Paris.
+    </p>
     """
+
     facebook="""Pour ne rien manquer du programme et ses actualités, rejoignez-nous sur [Facebook](https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401) !"""
 
 [languages.en.about]
