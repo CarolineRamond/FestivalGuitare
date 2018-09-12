@@ -116,6 +116,19 @@ function sliders () {
       addClassActive: true,
       loop: true,
     })
+
+
+    $('.archives-carousel').owlCarousel({
+      navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fa fa-2x fa-angle-left"></i>', '<i class="fa fa-2x fa-angle-right"></i>'],
+      slideSpeed: 500,
+      paginationSpeed: 1000,
+      autoPlay: false,
+      singleItem: true,
+      lazyLoad: true,
+      addClassActive: true,
+      loop: true,
+    })
   }
 }
 
@@ -258,7 +271,7 @@ function utils () {
     var parts = fullUrl.split('#')
     var trgt = parts[1]
     var targetOffset = $('#' + trgt).offset()
-    var targetTop = targetOffset.top - 100
+    var targetTop = targetOffset.top - 70
 
     if (targetTop < 0) {
       targetTop = 0
@@ -362,3 +375,22 @@ $(window).resize(function () {
     windowWidth = newWindowWidth
   }
 })
+
+$(document).ready(function () {
+      $(document).on("scroll", onScroll);
+});
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#navbar a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top - 70 <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#navbar a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}

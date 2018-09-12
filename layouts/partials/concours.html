@@ -1,0 +1,59 @@
+<section id="concours" class="purple-section">
+
+    <div class="concours-background"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-10 col-lg-offset-1">
+
+                <div class="section-title">
+                    {{ .Site.Params.concours.title | markdownify }}
+                </div>
+
+                <div class="concours-row">
+                    <div class="concours-item">
+                        <div class="concours-item-title">
+                            Eliminatoires
+                        </div>
+                        <div>Mercredi 28 Novembre</div>
+                        <div><strong>9h-13h / 14h30-19h</strong></div>
+                        <br>
+                        <div>Jeudi 29 Novembre</div>
+                        <div><strong>9h-13h / 14h30-19h</strong></div>
+                    </div>
+
+                    <div class="concours-item">
+                        <div class="concours-item-title">Demi-Finale</div>
+                        <div>Vendredi 30 Novembre</div>
+                        <div><strong>9h-17h</strong></div>
+                    </div>
+
+                    <div class="concours-item">
+                        <div class="concours-item-title">Finale</div>
+                        <div>Samedi 1er Décembre</div>
+                        <div><strong>20h</strong></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="concours-row">
+                <a class="concours-button">
+                    Bulletin d'inscription
+                </a>
+            </div>
+            <div class="concours-row">
+                <a class="concours-button">
+                    Règlement du concours
+                </a>
+            </div>
+
+            <div class="concours-row">
+                <div style="text-align: center;">
+                Informations complémentaires par téléphone au <span class="telephone-number">{{ .Site.Params.portable }}</span> ou au <span class="telephone-number">{{ .Site.Params.telephone }}</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

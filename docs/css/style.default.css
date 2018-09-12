@@ -486,9 +486,9 @@ ul.list-style-none {
   width: 100%;
   top: 0;
   z-index: 1000;
-  -webkit-box-shadow: 0 0 5px #cccccc;
+ /* -webkit-box-shadow: 0 0 5px #cccccc;
   box-shadow: 0 0 5px #cccccc;
-  -webkit-transition: all 0.5s ease-out;
+ */ -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -3054,7 +3054,7 @@ fieldset[disabled] .btn-template-primary.active {
   }
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #333;
   border-color: #cccccc;
   border-bottom: none;
 }
