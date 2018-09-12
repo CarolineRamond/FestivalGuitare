@@ -32,8 +32,8 @@ publishDir = "docs"
     weight = 3
 
 [[languages.fr.menu.main]]
-    name = "Tarifs & Réservations"
-    url  = "#tarifs"
+    name = "Concours"
+    url  = "#concours"
     weight = 4
 
 [[languages.fr.menu.main]]
@@ -42,9 +42,14 @@ publishDir = "docs"
     weight = 5
 
 [[languages.fr.menu.main]]
+    name = "Tarifs & Réservations"
+    url  = "#tarifs"
+    weight = 6
+
+[[languages.fr.menu.main]]
     name = "Infos Pratiques"
     url  = "#infos"
-    weight = 6
+    weight = 7
 
 
 # Main menu (en) ===================
@@ -146,7 +151,7 @@ publishDir = "docs"
     </p>
     """
 
-    facebook="""Pour ne rien manquer du programme et ses actualités, rejoignez-nous sur [Facebook](https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401) !"""
+    facebook="""Pour ne rien manquer du programme et ses actualités, rejoignez-nous sur <a href ='https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401' target='_blank'>Facebook !</a>"""
 
 [languages.en.about]
     title="About the Festival"
@@ -175,6 +180,12 @@ publishDir = "docs"
 [languages.en.program]
     title= "Program"
     default="Program soon available"
+
+[languages.fr.concours]
+    title= """Concours International de Guitare 'Alberto Ponce' <br> Première édition"""
+
+[languages.en.concours]
+    title= """Concours International de Guitare 'Alberto Ponce' <br> First edition"""
 
 [languages.fr.tarifs]
     title= "Tarifs & Réservations"

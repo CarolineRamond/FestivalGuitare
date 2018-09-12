@@ -5,10 +5,10 @@ order: 4
 events:
   - event:
     type: 
-        fr: "Concert"
-        en: "Concert"
-    icon: "img/logos/logo_concert.png"
-    artist: "Marko Topchi"
+        fr: "Concert en +"
+        en: "Concert en +"
+    icon: "img/logos/logo_concert_en_plus.png"
+    artist: "Cyprien N'Tsai"
     time: "11h"
   - event:
     type: 

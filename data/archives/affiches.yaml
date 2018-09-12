@@ -2,7 +2,7 @@ modalID: "affiches"
 title: 
   fr: "Les Affiches"
   en: "Posters"
-thumbnail: "img/backgrounds/background.jpg"
+thumbnail: "img/archives/affiches/affiches_thumbnail.png"
 list:
   - "img/archives/affiches/01_edition.jpg"
   - "img/archives/affiches/02_edition.jpg"

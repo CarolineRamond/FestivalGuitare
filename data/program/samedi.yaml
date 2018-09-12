@@ -12,19 +12,16 @@ events:
     time: "10h-13h"
   - event:
     type: 
-        fr: "Concert"
-        en: "Concert"
-    icon: "img/logos/logo_concert.png"
-    artist: "Guitares à Suivre"
+        fr: "Guitares à Suivre"
+        en: "Guitares à Suivre"
+    icon: "img/logos/logo_guitares_a_suivre.png"
+    artist: "Clément Mengelle // Johan Smith // Paul Sun"
     time: "15h"
-    description: 
-        fr: "Paul Sun, Johan Martin, Johan Dupont"
-        en: "Paul Sun, Johan Martin, Johan Dupont"
   - event:
     type: 
-        fr: "Concert"
-        en: "Concert"
-    icon: "img/logos/logo_concert.png"
+        fr: "Concert en +"
+        en: "Concert en +"
+    icon: "img/logos/logo_concert_en_plus.png"
     artist: "Raphaël Feuillâtre"
     time: "17h"
   - event:

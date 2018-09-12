@@ -5,6 +5,13 @@ order: 2
 events:
   - event:
     type: 
+        fr: "Concert en +"
+        en: "Concert en +"
+    icon: "img/logos/logo_concert_en_plus.png"
+    artist: "Quatuor Bergamasque"
+    time: "18h"
+  - event:
+    type: 
         fr: "Concert"
         en: "Concert"
     icon: "img/logos/logo_concert.png"

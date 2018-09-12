@@ -42,9 +42,9 @@
                                     <div class="event-header">
                                         <img src="{{ $event.icon }}" class="event-header-icon"/>
                                         <div class="event-header-title">
-                                            {{ index $event.type $lang }}
+                                            <strong>{{ index $event.type $lang }}</strong>
                                             {{ with $event.artist }}
-                                                <span>&nbsp- {{ . }} </span>
+                                                <span>&nbsp: {{ . }} </span>
                                             {{ end }}
                                         </div>
                                         <div class="dummy"></div>
