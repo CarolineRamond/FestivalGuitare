@@ -90,6 +90,7 @@ publishDir = "docs"
     copyright = "Copyright (c) 2018, Association \"Vous avez dit guitare ?\"; all rights reserved."
     telephone = "01.46.80.03.53"
     portable = "06.29.27.20.83"
+    mail = "festivalguitareparis@gmail.com"
     reservation = "zozi.com"
 
     # Format dates with Go's time formatting
@@ -176,10 +177,13 @@ publishDir = "docs"
 [languages.fr.program]
     title= "Programme"
     default="Programme bientôt disponible"
+    text="""Cette année, nous sommes fiers d'accueillir <strong>Alfonso Carpio Fernàndez</strong>, <strong>l'ensemble Rolf Lislevand</strong>, <strong>Alvarro Pierri</strong>, <strong>Juan Falù</strong>, le <strong>Take4 Quartet</strong> et <strong>Lorenzo Micheli</strong>. 
+    Pour nos 'Concerts en +', nous accueillerons également le <strong>Quatuor Bergamasque</strong>, <strong>Raphaël Feuillâtre</strong> et <strong>Cyprien N'Tsai</strong>. Sans oublier les 'Guitares à Suivre': <strong>Clément Mengelle</strong>, <strong>Johan Smith</strong> et <strong>Paul Sun</strong>."""
 
 [languages.en.program]
     title= "Program"
     default="Program soon available"
+    text="Cette année, nous sommes fiers d'accueillir Thibault Garcia, l'ensemble La Hormigita & Co, l'ensemble Rolf Lislevand, Alvarro Pierri, Juan Falu, le Take4 Quartet et Lorenzo Micheli. Pour nos 'Concerts en +', nous accueillerons également le Quatuor Bergamasque, Raphaël Feuillâtre et Cyprien N'Tsai. Sans oublier les 'Guitares à Suivre': Clément Mengelle, Johan Smith et Paul Sun."
 
 [languages.fr.concours]
     title= """Concours International de Guitare 'Alberto Ponce' <br> Première édition"""
@@ -207,7 +211,8 @@ publishDir = "docs"
     Métro Rapée / RER Gare de Lyon
     """
     resa_title="Réservations"
-    resa="""Par téléphone au <span class="telephone-number">06.29.27.20.83</span><br>
+    resa="""Par mail à <span class="telephone-number">festivalguitareparis@gmail.com</span>.<br>
+    Par téléphone au <span class="telephone-number">06.29.27.20.83</span><br>
     ou au <span class="telephone-number">01.46.80.03.53.</span><br>
     Réservation par internet bientôt disponible.
     """
