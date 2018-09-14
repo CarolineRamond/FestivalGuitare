@@ -27,7 +27,13 @@
                             <img src="{{ .image }}" alt="">
                             <div class="img-caption">
                                 <div class="artist-name">
-                                    <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                                    {{ if .url}}
+                                    <a href="{{ .url }}" target="_blank">
+                                        {{ .name }}
+                                    </a>
+                                    {{ else }}
+                                    <span>{{ .name }}</span>
+                                    {{ end }}
                                 </div>
                                 {{ with .description }}
                                     <div class="artist-description">{{ . }}</div>

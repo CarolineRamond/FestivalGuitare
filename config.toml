@@ -178,7 +178,7 @@ publishDir = "docs"
     title= "Programme"
     default="Programme bientôt disponible"
     text="""Cette année, nous sommes fiers d'accueillir <strong>Alfonso Carpio Fernàndez</strong>, <strong>l'ensemble Rolf Lislevand</strong>, <strong>Alvarro Pierri</strong>, <strong>Juan Falù</strong>, le <strong>Take4 Quartet</strong> et <strong>Lorenzo Micheli</strong>. 
-    Pour nos 'Concerts en +', nous accueillerons également le <strong>Quatuor Bergamasque</strong>, <strong>Raphaël Feuillâtre</strong> et <strong>Cyprien N'Tsai</strong>. Sans oublier les 'Guitares à Suivre': <strong>Clément Mengelle</strong>, <strong>Johan Smith</strong> et <strong>Paul Sun</strong>."""
+    Pour nos 'Concerts en +', nous accueillerons également le <strong>Quatuor Bergamasque</strong>, <strong>Raphaël Feuillâtre</strong> et <strong>Cyprien N'Tsaï</strong>. Sans oublier les 'Guitares à Suivre': <strong>Clément Mengelle</strong>, <strong>Johan Smith</strong> et <strong>Paul Sun</strong>."""
 
 [languages.en.program]
     title= "Program"
