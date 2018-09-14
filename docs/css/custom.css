@@ -266,23 +266,23 @@ section {
 	text-decoration: none;
 }
 
-#about .artists.owl-carousel {
+.artists.owl-carousel {
 	margin: 40px 0;
 }
 
-#about .artists.owl-carousel .item{
+.artists.owl-carousel .item{
 	background-color: black;
 	height: 400px;
 	position: relative;
 }
 
-#about .artists.owl-carousel .item img {
+.artists.owl-carousel .item img {
 	height: 100%;
 	width: 100%;
 	object-fit: contain;
 }
 
-#about .artists.owl-carousel .item .img-caption {
+.artists.owl-carousel .item .img-caption {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
@@ -293,27 +293,27 @@ section {
 	text-align: center;
 }
 
-#about .artists.owl-carousel .item .img-caption .artist-name a {
+.artists.owl-carousel .item .img-caption .artist-name a {
 	font-size: 16px;
 	font-weight: bold;
 	color: white;
 	text-decoration: none;
 }
 
-#about .artists.owl-carousel .item .img-caption .artist-name a:hover {
+.artists.owl-carousel .item .img-caption .artist-name a:hover {
 	color: #CCC;
 }
 
-#about .artists.owl-carousel .item .img-caption .artist-description {
+.artists.owl-carousel .item .img-caption .artist-description {
 	font-size: 12px;
 }
 
-#about .artists.owl-theme .owl-controls .owl-page:hover span,
-#about .artists.owl-theme .owl-controls .owl-page.active span {
+.artists.owl-theme .owl-controls .owl-page:hover span,
+.artists.owl-theme .owl-controls .owl-page.active span {
 	background-color: #734C68!important;
 }
 
-#about .artists.owl-theme .owl-buttons {
+.artists.owl-theme .owl-buttons {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -326,24 +326,27 @@ section {
 	pointer-events: none;
 }
 
-#about .artists.owl-theme .owl-buttons .owl-prev,
-#about .artists.owl-theme .owl-buttons .owl-next {
+.artists.owl-theme .owl-buttons .owl-prev,
+.artists.owl-theme .owl-buttons .owl-next {
 	background: none;
 	pointer-events: auto;
 }
 
-#about .artists.owl-theme .owl-buttons .owl-prev i,
-#about .artists.owl-theme .owl-buttons .owl-next i {
+.artists.owl-theme .owl-buttons .owl-prev i,
+.artists.owl-theme .owl-buttons .owl-next i {
 	transition: color 0.2s ease-in-out;
 	color: white;
 	text-shadow: 1px 1px 5px #666;
 }
 
-#about .artists.owl-theme .owl-buttons .owl-prev:hover i,
-#about .artists.owl-theme .owl-buttons .owl-next:hover i {
+.artists.owl-theme .owl-buttons .owl-prev:hover i,
+.artists.owl-theme .owl-buttons .owl-next:hover i {
 	color: #CCC;
 }
 
+#program .program-text {
+	font-size: 18px;
+}
 
 #program #program-accordion .panel-default {
 	background-color: transparent;
