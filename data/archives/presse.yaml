@@ -1,0 +1,47 @@
+modalID: "presse"
+title: 
+  fr: "Articles de Presse"
+  en: "Press Articles"
+enabled: true
+thumbnail: "img/archives/presse/thumbnail_presse.png"
+list:
+  - item:
+      name: "2016 - Guitare Classique"
+      url: "img/archives/presse/2016_guitare_classique.pdf"
+  - item:
+      name: "2010 - Guitare Classique"
+      url: "img/archives/presse/2010_guitare_classique.pdf"
+  - item:
+      name: "2009 - Guitare Classique"
+      url: "img/archives/presse/2009_guitare_classique.pdf"
+  - item:
+      name: "2008 - Guitare Classique"
+      url: "img/archives/presse/2008_guitare_classique.pdf"
+  - item:
+      name: "2007 - Guitare Classique"
+      url: "img/archives/presse/2007_guitare_classique.pdf"
+  - item:
+      name: "2006 - Guitare Classique"
+      url: "img/archives/presse/2006_guitare_classique.pdf"
+  - item:
+      name: "2005 - Guitare Classique"
+      url: "img/archives/presse/2005_guitare_classique.pdf"
+  - item:
+      name: "2005 - Guitare Classique (2)"
+      url: "img/archives/presse/2005_guitare_classique.pdf"
+  - item:
+      name: "2005 - Classical Guitar"
+      url: "img/archives/presse/2005_classical_guitar.pdf"
+  - item:
+      name: "2004 - Resmusica"
+      url: "img/archives/presse/2004_resmusica.pdf"
+  - item:
+      name: "2004 - Guitare Classique"
+      url: "img/archives/presse/2004_guitare_classique.pdf"
+  - item:
+      name: "2003 - Resmusica"
+      url: "img/archives/presse/2003_resmusica.pdf"
+  - item:
+      name: "2003 - Guitare Classique"
+      url: "img/archives/presse/2003_guitare_classique.pdf"
+

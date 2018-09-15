@@ -29,6 +29,16 @@
                                 </div>
                             {{ end }}
                         </div>
+                    {{ else if eq $archive.modalID "presse" }}
+                        <div class="col-md-8 col-md-offset-2 col-xl-8 col-xl-offset-2 press">
+                            {{ range $archive.list }}
+                            <div class="press-link">
+                                <a href="{{ .item.url }}" download>
+                                    {{ .item.name }}
+                                </a>
+                            </div>
+                            {{ end }}
+                        </div>
                     {{ else }}
                         <div class="img-columns col-md-10 col-md-offset-1 col-xl-8 col-xl-offset-2">
                             {{ range $imageIndex, $image := $archive.list }}

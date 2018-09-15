@@ -145,7 +145,7 @@ publishDir = "docs"
     <p align="justify">
         Ainsi durant quatre jours, concerts, concours, master-class, conférences vous donneront à entendre, nous l’espérons, le meilleur de la guitare.
         Nous tenons à remercier chaleureusement tous nos partenaires, 
-        <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> , 
+        <a href='https://www.facebook.com/LaGuitarreriaParis/' target='_blank'>La Guitarreria</a> , 
         <a href='https://www.henry-lemoine.com/' target='_blank'>les éditions Henry Lemoine</a>,
         <a href='http://www.savarez.fr/' target='_blank'>les cordes Savarez</a>, 
         <a href='http://fr.daddario.com/' target='_blank'>les cordes D'addario</a>, 
@@ -182,7 +182,7 @@ publishDir = "docs"
     <p align="justify">
         Thereby, we hope that these four days of concerts, competition, master-classes will bring you the best of guitar.
         We would like to thank warmly all of our partners,
-        <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> , 
+        <a href='https://www.facebook.com/LaGuitarreriaParis/' target='_blank'>La Guitarreria</a> , 
         <a href='https://www.henry-lemoine.com/' target='_blank'>the Henry Lemoine editions</a>,
         <a href='http://www.savarez.fr/' target='_blank'>the Savarez strings</a>, and the
         <a href='http://fr.daddario.com/' target='_blank'>the D'addario strings</a>.
@@ -195,7 +195,7 @@ publishDir = "docs"
         Paris International Guitar Festival team.
     </p>
     """
-    facebook="""Dont miss anything about the Festival ! Join us on [Facebook](https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401) !"""
+    facebook="""Dont miss anything about the Festival ! Join us on <a href="https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401" target="_blank">Facebook</a> !"""
 
 
 [languages.fr.program]
