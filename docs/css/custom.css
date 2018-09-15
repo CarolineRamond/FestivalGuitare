@@ -253,7 +253,8 @@ section {
 
 #about .about-content a,
 #infos .infos-content a,
-#facebook a {
+#facebook a,
+.press-link a {
 	color: #734C68;
 	font-weight: bold;
 }
@@ -261,7 +262,11 @@ section {
 #about .about-content a:hover,
 #about .about-content a:focus,
 #infos .infos-content a:hover,
-#infos .infos-content a:focus {
+#infos .infos-content a:focus,
+#facebook a:hover,
+#facebook a:focus,
+.press-link a:hover,
+.press-link a:focus {
 	color: #AD7D9F;
 	text-decoration: none;
 }
@@ -400,7 +405,7 @@ section {
 }
 
 #program #program-accordion .event .event-header .event-header-time {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
@@ -449,6 +454,10 @@ section {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+#concours .concours-row .concours-item {
+	justify-content: flex-start;
 }
 
 #infos .infos-item {
@@ -756,6 +765,20 @@ section {
 .my-modal .modal-content .my-modal-content .poster-img img:hover {
 	opacity: 0.8;
 }
+
+.my-modal .press {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.my-modal .press .press-link {
+	font-size: 18px;
+	margin: 4px 10px;
+}
+
 
 #facebook {
 	text-align: center;
