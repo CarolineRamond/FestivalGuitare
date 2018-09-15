@@ -1,0 +1,28 @@
+{{ "<!-- Asso Modal -->" | safeHTML }}
+<div class="modal fade my-modal" id="association" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content white-section">
+
+        <div class="strings">
+            <div class="string" style="opacity:0.1;"></div>
+            <div class="string" style="opacity:0.1;"></div>
+            <div class="string" style="opacity:0.1;"></div>
+        </div>
+
+
+        <div class="my-modal-header">
+            {{ .Site.Params.asso.title }}
+        </div>
+        <div class="my-modal-close-button" data-dismiss="modal">
+            <i class="fa fa-3x fa-times-circle"></i>
+        </div>
+
+        <div class="my-modal-content">
+            <div class="container">
+                <div class="row">
+                    {{ .Site.Params.asso.text | markdownify }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

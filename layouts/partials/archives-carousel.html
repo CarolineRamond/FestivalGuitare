@@ -3,7 +3,7 @@
 {{ range $archiveIndex, $archive := .Site.Data.archives }}
     <div class="modal fade archives-carousel-modal" id="archivesCarousel{{ $archive.modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="my-modal-close-button" data-dismiss="modal" style="color:white;">
-                X
+                <i class="fa fa-3x fa-times-circle"></i>
             </div>
             <div class="archives-carousel owl-carousel">
                 {{ range $archive.list }}

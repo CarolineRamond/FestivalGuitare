@@ -11,46 +11,33 @@
                 </div>
 
                 <div class="concours-row">
-                    <div class="concours-item">
-                        <div class="concours-item-title">
-                            Eliminatoires
+                    
+                    {{ range .Site.Params.concours.item }}
+                        <div class="concours-item">
+                            <div class="concours-item-title">
+                                {{ .title }}
+                            </div>
+                            <div>{{ .date | markdownify }}</div>
                         </div>
-                        <div>Mercredi 28 Novembre</div>
-                        <div><strong>9h-13h / 14h30-19h</strong></div>
-                        <br>
-                        <div>Jeudi 29 Novembre</div>
-                        <div><strong>9h-13h / 14h30-19h</strong></div>
-                    </div>
-
-                    <div class="concours-item">
-                        <div class="concours-item-title">Demi-Finale</div>
-                        <div>Vendredi 30 Novembre</div>
-                        <div><strong>9h-17h</strong></div>
-                    </div>
-
-                    <div class="concours-item">
-                        <div class="concours-item-title">Finale</div>
-                        <div>Samedi 1er Décembre</div>
-                        <div><strong>20h</strong></div>
-                    </div>
+                    {{ end }}
                 </div>
             </div>
 
             
             <div class="concours-row">
                 <a class="concours-button" href="img/concours/bulletin_inscription_concours.pdf" download>
-                    Bulletin d'inscription
+                    {{ .Site.Params.concours.inscription }}
                 </a>
             </div>
             <div class="concours-row">
                 <a class="concours-button" href="img/concours/reglement_concours.pdf" download>
-                    Règlement du concours
+                    {{ .Site.Params.concours.reglement }}
                 </a>
             </div>
 
             <div class="concours-row">
                 <div style="text-align: center;">
-                Informations complémentaires par mail à <span class="telephone-number">{{ .Site.Params.mail }}</span> ou par téléphone au <span class="telephone-number">{{ .Site.Params.portable }}</span> / <span class="telephone-number">{{ .Site.Params.telephone }}</span>
+                    {{ .Site.Params.concours.infos | markdownify }}
                 </div>
             </div>
 

@@ -18,6 +18,7 @@
 
                 <div class="archives-container">
                     {{ range .Site.Data.archives }}
+                        {{ if .enabled }}
                         <div class="archives-item col-md-4">
                             <a href="#archivesModal{{ .modalID }}" class="photo-box" data-toggle="modal" data-keyboard="false">
                                 <div class="archives-item-thumbnail">
@@ -29,6 +30,7 @@
                                 </div>
                             </a>
                         </div>
+                        {{ end }}
                     {{ end }}
                 </div>
             </div>

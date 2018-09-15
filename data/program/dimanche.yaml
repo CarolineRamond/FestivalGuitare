@@ -5,15 +5,25 @@ order: 4
 events:
   - event:
     type: 
+        fr: "Salon de Lutherie"
+        en: "Lute-making Exhibition"
+    icon: "img/logos/logo_lutherie.png"
+    time: "10h-16h"
+  - event:
+    type: 
         fr: "Concert en +"
-        en: "Concert en +"
+        en: "Extra Concert (\"Concert en +\")"
     icon: "img/logos/logo_concert_en_plus.png"
-    artist: "Cyprien N'Tsai"
+    artist: 
+        fr: "Cyprien N'Tsai"
+        en: "Cyprien N'Tsai"
     time: "11h"
   - event:
     type: 
         fr: "Concert"
         en: "Concert"
     icon: "img/logos/logo_concert.png"
-    artist: "Take4 Quartet // Lorenzo Micheli"
+    artist: 
+        fr: "Take4 Quartet // Lorenzo Micheli"
+        en: "Take4 Quartet // Lorenzo Micheli"
     time: "17h30"

@@ -31,7 +31,9 @@
             <div class="home-place">{{.}}</div>
         {{ end }}
 
-    <div style="background-color:darkred;position:absolute;transform:rotate(-30deg);width:1000px;font-size:18px;font-family:'Lucida Sans Unicode';font-weight:bold;top:190px;left:-260px;">Premier Concours International de Guitare "Alberto Ponce"</div>
+    <div style="background-color:darkred;position:absolute;transform:rotate(-30deg);width:1000px;font-size:18px;font-family:'Lucida Sans Unicode';font-weight:bold;top:190px;left:-260px;">
+        {{ .Site.Params.homepage.concours }}
+    </div>
 
 
     </div>

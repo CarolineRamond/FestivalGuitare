@@ -61,7 +61,7 @@ publishDir = "docs"
     weight = 1
 
 [[languages.en.menu.main]]
-    name = "About"
+    name = "Editorial"
     url  = "#about"
     weight = 2
 
@@ -71,14 +71,19 @@ publishDir = "docs"
     weight = 3
 
 [[languages.en.menu.main]]
-    name = "Prices & Bookings"
-    url  = "#tarifs"
+    name = "Competition"
+    url  = "#concours"
     weight = 4
 
 [[languages.en.menu.main]]
     name = "Archives / Press"
     url  = "#archives"
     weight = 5
+
+[[languages.en.menu.main]]
+    name = "Prices & Booking"
+    url  = "#tarifs"
+    weight = 6
 
 [[languages.en.menu.main]]
     name = "Information"
@@ -105,6 +110,7 @@ publishDir = "docs"
     date = """Du 29 Novembre 2018 au 2 Décembre 2018"""
     place = "Espace Traversière"
     logo="img/logos/logo.png"
+    concours="Premier Concours International de Guitare \"Alberto Ponce\""
 
 [languages.en.homepage]
     background = "img/backgrounds/background2.jpg"
@@ -113,6 +119,7 @@ publishDir = "docs"
     date = """From November 29th 2018 to December 2nd 2018"""
     place = "Espace Traversière"
     logo="img/logos/logo.png"
+    concours="First Paris International Guitar Competition \"Alberto Ponce\""
 
 [params.homepage.download]
     label="Télécharger le programme 2018"
@@ -155,21 +162,38 @@ publishDir = "docs"
     facebook="""Pour ne rien manquer du programme et ses actualités, rejoignez-nous sur <a href ='https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401' target='_blank'>Facebook !</a>"""
 
 [languages.en.about]
-    title="About the Festival"
+    title="Editorial"
     text="""<p>
-        Since 2001, Paris International Guitar Festival puts the spotlight on musicians from all around the world...
+        Dear friends,
     </p>
-    <p>
-        It is organized by the association <a href="/faq">Vous avez dit guitare ?</a>
-        with the support of
-        <a href='http://fr.daddario.com/' target='_blank'>D'addario</a>, 
-        <a href='http://www.savarez.fr/' target='_blank'>Savarez</a>, 
-        <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> 
-        and 
-        <a href='https://www.henry-lemoine.com/' target='_blank'>Henry Lemoine</a>, 
-        ...
+    <p align="justify">
+        It is a real pleasure to meet again after a one year break. This fifteenth edition of the Paris International Guitar Festival will take place from November 29th to December 2nd 2018. We want it to stay true to the spirit of the fourteen first editions with a varied program, and artistical excellence for only ambition.
     </p>
-    <p>For this 2018 session, we are pleased to welcome ...</p>
+    <p align="justify">
+        However, this fifteenth edition will not be just like the others. To begin with, the Festival will take place for the first time at the \"théâtre Traversière\" (XII). We hope you will enjoy this new venue as a setting for our instrument.
+        Then, a major change is coming as an international guitar competition will enrich the festival: the first Paris International Guitar Competition \"Alberto Ponce\". This event will shed light on tomorrow's talents and bring a breath of fresh air to our festival.
+    </p>
+    <p align="justify">
+        We modestly hope the organization of this competition will help guitar in Paris to get back the importance it had in the days of Robert J. Vidal. He was a figure without which the Paris Guitar Festival wouldn't be what it is today.
+    </p>
+    <p align="justify">
+        We would like to dedicate this fifteenth festival - and particularly the thursday evening - to Isabel Gomez, who passed away this year. Isabel illuminated the guitar world with her kindness, her incredible generosity, and her unfailing passion for our instrument. The Paris Guitar Festival ows her its existence.
+    </p>
+    <p align="justify">
+        Thereby, we hope that these four days of concerts, competition, master-classes will bring you the best of guitar.
+        We would like to thank warmly all of our partners,
+        <a href='https://www.guitarreria.eu/' target='_blank'>La Guitarreria</a> , 
+        <a href='https://www.henry-lemoine.com/' target='_blank'>the Henry Lemoine editions</a>,
+        <a href='http://www.savarez.fr/' target='_blank'>the Savarez strings</a>, and the
+        <a href='http://fr.daddario.com/' target='_blank'>the D'addario strings</a>.
+        They have always believed in us, even in the most difficult moments.
+    </p>
+    <p align="justify">
+        We look forward to see you at the \"théâtre Traversière\" in the end of November. Enjoy the new school year !
+    </p>
+    <p align="right">
+        Paris International Guitar Festival team.
+    </p>
     """
     facebook="""Dont miss anything about the Festival ! Join us on [Facebook](https://www.facebook.com/Festival-International-de-Guitare-de-Paris-173620507401) !"""
 
@@ -177,25 +201,187 @@ publishDir = "docs"
 [languages.fr.program]
     title= "Programme"
     default="Programme bientôt disponible"
-    text="""Cette année, nous sommes fiers d'accueillir <strong>Alfonso Carpio Fernàndez</strong>, <strong>l'ensemble Rolf Lislevand</strong>, <strong>Alvarro Pierri</strong>, <strong>Juan Falù</strong>, le <strong>Take4 Quartet</strong> et <strong>Lorenzo Micheli</strong>. 
-    Pour nos 'Concerts en +', nous accueillerons également le <strong>Quatuor Bergamasque</strong>, <strong>Raphaël Feuillâtre</strong> et <strong>Cyprien N'Tsaï</strong>. Sans oublier les 'Guitares à Suivre': <strong>Clément Mengelle</strong>, <strong>Johan Smith</strong> et <strong>Paul Sun</strong>."""
+    text="""<p>Cette année, nous sommes fiers d'accueillir <strong>Thibaut Garcia</strong>, <strong>Alfonso Carpio Fernàndez & Marco \"el curandero\"</strong>, <strong>José Galvez</strong>, <strong>Isidoro Fernandez Roman</strong>, <strong>Rolf Lislevand</strong>, <strong>Alvarro Pierri</strong>, <strong>Juan Falù</strong>, le <strong>Take4 Quartet</strong> et <strong>Lorenzo Micheli</strong>. 
+    </p>
+    <p>
+    Pour nos \"Concerts en +\", nous accueillerons également le <strong>Quatuor Bergamasque</strong>, <strong>Raphaël Feuillâtre</strong> et <strong>Cyprien N'Tsaï</strong>. Sans oublier les \"Guitares à Suivre\": <strong>Clément Mengelle</strong>, <strong>Johan Smith</strong> et <strong>Paul Sun</strong>.
+    </p>
+    """
 
 [languages.en.program]
     title= "Program"
     default="Program soon available"
-    text="Cette année, nous sommes fiers d'accueillir Thibault Garcia, l'ensemble La Hormigita & Co, l'ensemble Rolf Lislevand, Alvarro Pierri, Juan Falu, le Take4 Quartet et Lorenzo Micheli. Pour nos 'Concerts en +', nous accueillerons également le Quatuor Bergamasque, Raphaël Feuillâtre et Cyprien N'Tsai. Sans oublier les 'Guitares à Suivre': Clément Mengelle, Johan Smith et Paul Sun."
+    text="""<p>This year, we are proud to welcome <strong>Thibaut Garcia</strong>, <strong>Alfonso Carpio Fernàndez & Marco "el curandero"</strong>, <strong>José Galvez</strong>, <strong>Isidoro Fernandez Roman</strong>, <strong>Rolf Lislevand</strong>, <strong>Alvarro Pierri</strong>, <strong>Juan Falù</strong>, the <strong>Take4 Quartet</strong> and <strong>Lorenzo Micheli</strong>. 
+    </p>
+    <p>
+    For our extra concerts (\"Concerts en + \"), we will also welcome the <strong>Quatuor Bergamasque</strong>, <strong>Raphaël Feuillâtre</strong> and <strong>Cyprien N'Tsaï</strong>. To finish with, let's not forget the new talents of \"Guitares à Suivre\": <strong>Clément Mengelle</strong>, <strong>Johan Smith</strong> and <strong>Paul Sun</strong>.
+    </p>
+    """
 
 [languages.fr.concours]
     title= """Concours International de Guitare 'Alberto Ponce' <br> Première édition"""
+    inscription="Bulletin d'inscription"
+    reglement="Règlement du concours"
+    infos="""Informations complémentaires par mail à 
+    <span class="telephone-number">festivalguitareparis@gmail.com</span> 
+    ou par téléphone au <span class="telephone-number">06.29.27.20.83</span> / 
+    <span class="telephone-number">01.46.80.03.53</span>
+    """
+    [[languages.fr.concours.item]]
+        title="Eliminatoires"
+        date="""<p>Mercredi 28 Novembre<br>
+            <strong>9h-13h / 14h30-19h</strong></p>
+            <p>Jeudi 29 Novembre<br>
+            <strong>9h-13h / 14h30-19h</strong></p>
+        """
+    [[languages.fr.concours.item]]
+        title="Demi-Finale"
+        date="""<p>Vendredi 30 Novembre<br>
+            <strong>9h-17h</strong></p>
+        """
+    [[languages.fr.concours.item]]
+        title="Finale"
+        date="""<p>Samedi 1er Décembre<br>
+            <strong>20h</strong></p>
+        """
 
 [languages.en.concours]
-    title= """Concours International de Guitare 'Alberto Ponce' <br> First edition"""
+    title= """International Guitar Competition 'Alberto Ponce' <br> First edition"""
+    inscription="Application form"
+    reglement="Competition rules"
+    infos="""Additional information by mail at 
+    <span class="telephone-number">festivalguitareparis@gmail.com</span> 
+    or by phone at <span class="telephone-number">06.29.27.20.83</span> / 
+    <span class="telephone-number">01.46.80.03.53</span>
+    """
+    [[languages.en.concours.item]]
+        title="Elimination Round"
+        date="""<p>Wd November 28th<br>
+            <strong>9h-13h / 14h30-19h</strong></p>
+            <p>Th November 29th<br>
+            <strong>9h-13h / 14h30-19h</strong></p>
+        """
+    [[languages.en.concours.item]]
+        title="Semi-Finale"
+        date="""<p>Fr November 30th<br>
+            <strong>9h-17h</strong></p>
+        """
+    [[languages.en.concours.item]]
+        title="Finale"
+        date="""<p>Sa December 1st<br>
+            <strong>20h</strong></p>
+        """
 
 [languages.fr.tarifs]
     title= "Tarifs & Réservations"
+    infos="""Informations & réservations par mail à 
+    <span class="telephone-number">festivalguitareparis@gmail.com</span> 
+    ou par téléphone au <span class="telephone-number">06.29.27.20.83</span> / 
+    <span class="telephone-number">01.46.80.03.53</span>
+    """
+
+    [[languages.fr.tarifs.item]]
+        title="Concerts"
+        prices="""Plein tarif - <strong>25€</strong><br>
+            Tarif réduit - <strong>19€</strong>
+        """
+        resa=true
+
+    [[languages.fr.tarifs.item]]
+        title="Pass 3 Concerts"
+        prices="""Plein tarif - <strong>60€</strong><br>
+            Tarif réduit - <strong>51€</strong>
+        """
+        resa=true
+
+    [[languages.fr.tarifs.item]]
+        title="Pass 4 Concerts"
+        prices="""Plein tarif - <strong>78€</strong><br>
+            Tarif réduit - <strong>68€</strong>
+        """
+        resa=true
+
+    [[languages.fr.tarifs.item]]
+        title="Concerts en +"
+        prices="""Tarif unique - <strong>12€</strong>"""
+        infos="Sans réservation"
+
+
+    [[languages.fr.tarifs.item]]
+        title="Master Class"
+        prices="""Participant - <strong>40€</strong><br>
+        Auditeur - <strong>10€</strong>"""
+        infos="""Participant - Réservation par mail/téléphone<br>
+        Auditeur - Sans réservation
+        """
+
+    [[languages.fr.tarifs.item]]
+        title="Concert \"Guitares à suivre\""
+        prices=""""""
+        infos="""Entrée libre
+        """
+
+
+    [[languages.fr.tarifs.item]]
+        title="Salon de lutherie"
+        prices=""""""
+        infos="""Entrée libre
+        """
 
 [languages.en.tarifs]
     title= "Prices & Bookings"
+    infos="""Additional information & booking by mail at 
+    <span class="telephone-number">festivalguitareparis@gmail.com</span> 
+    or by phone at <span class="telephone-number">06.29.27.20.83</span> / 
+    <span class="telephone-number">01.46.80.03.53</span>
+    """
+
+    [[languages.en.tarifs.item]]
+        title="Concerts"
+        prices="""Full price - <strong>25€</strong><br>
+            Reduced price - <strong>19€</strong>
+        """
+        resa=true
+
+    [[languages.en.tarifs.item]]
+        title="3 Concerts Pass"
+        prices="""Full price - <strong>60€</strong><br>
+            Reduced price - <strong>51€</strong>
+        """
+        resa=true
+
+    [[languages.en.tarifs.item]]
+        title="4 Concerts Pass"
+        prices="""Full price - <strong>78€</strong><br>
+            Reduced price - <strong>68€</strong>
+        """
+        resa=true
+
+    [[languages.en.tarifs.item]]
+        title="Extra Concerts (\"Concerts en +\")"
+        prices="""Price - <strong>12€</strong>"""
+        infos="No booking needed"
+
+
+    [[languages.en.tarifs.item]]
+        title="Master Class"
+        prices="""Player - <strong>40€</strong><br>
+        Audience - <strong>10€</strong>"""
+        infos="""Participant - Booking by mail/phone<br>
+        Auditeur - No booking needed
+        """
+
+    [[languages.en.tarifs.item]]
+        title="Young talents concert (\"Guitares à suivre\")"
+        prices=""""""
+        infos="""Free entrance
+        """
+
+    [[languages.en.tarifs.item]]
+        title="Lute-making exhibition"
+        prices=""""""
+        infos="""Free entrance
+        """
 
 [languages.fr.archives]
     title= "Archives / Presse"
@@ -213,14 +399,12 @@ publishDir = "docs"
     resa_title="Réservations"
     resa="""Par mail à <span class="telephone-number">festivalguitareparis@gmail.com</span>.<br>
     Par téléphone au <span class="telephone-number">06.29.27.20.83</span><br>
-    ou au <span class="telephone-number">01.46.80.03.53.</span><br>
+    ou au <span class="telephone-number">01.46.80.03.53</span><br>
     Réservation par internet bientôt disponible.
     """
     asso_title="L'Association"
-    asso="""Le festival est organisé par l'association <br>"Vous avez dit guitare ?".<br>
-    Pour en savoir plus : <a href="/faq">/association</a><br>
-    Adhérez à l'association : <a href="/faq">/association</a>
-    """
+    asso="""Le festival est organisé par l'association<br>\"Vous avez dit guitare ?\""""
+    asso_link="En savoir plus / Adhérer à l'association"
 
 [languages.en.infos]
     title= "Information"
@@ -235,14 +419,21 @@ publishDir = "docs"
     Online booking soon available.
     """
     asso_title="Our Association"
-    asso="""The festival is organized by the association <br>"Vous avez dit guitare ?".<br>
-    Learn more : <a href="/faq">/association</a><br>
-    Join the association : <a href="/faq">/association</a>
-    """
+    asso="""The festival is organized by the association<br>\"Vous avez dit guitare ?\""""
+    asso_link="Learn more / Join the association"
 
 [languages.fr.partners]
     title= "Un grand merci à nos partenaires"
 
 [languages.en.partners]
     title= "Many thanks to our partners"
+
+[languages.fr.asso]
+    title= "Association \"Vous avez dit guitare ?\""
+    text= "coucou les ptits potes"
+
+[languages.en.asso]
+    title= "Association \"Vous avez dit guitare ?\""
+    text= "coucou les ptits potes"
+
 

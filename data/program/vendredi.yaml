@@ -6,14 +6,18 @@ events:
   - event:
     type: 
         fr: "Concert en +"
-        en: "Concert en +"
+        en: "Extra Concert (\"Concert en +\")"
     icon: "img/logos/logo_concert_en_plus.png"
-    artist: "Quatuor Bergamasque"
+    artist: 
+        fr: "Quatuor Bergamasque"
+        en: "Quatuor Bergamasque"
     time: "18h"
   - event:
     type: 
         fr: "Concert"
         en: "Concert"
     icon: "img/logos/logo_concert.png"
-    artist: "Ensemble Rolf Lislevand // Alvaro Pierri"
+    artist: 
+        fr: "Ensemble Rolf Lislevand // Alvaro Pierri"
+        en: "Ensemble Rolf Lislevand // Alvaro Pierri"
     time: "20h30"

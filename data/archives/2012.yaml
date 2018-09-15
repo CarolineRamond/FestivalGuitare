@@ -2,6 +2,7 @@ modalID: "2012"
 title: 
   fr: "édition 2012"
   en: "year 2012"
+enabled: false
 thumbnail: "img/archives/2012/2012_thumbnail.jpg"
 list:
   - "img/archives/2012/concert_jeudi_1.jpg"

@@ -400,7 +400,7 @@ section {
 }
 
 #program #program-accordion .event .event-header .event-header-time {
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
@@ -449,6 +449,10 @@ section {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+#concours .concours-row .concours-item {
+	justify-content: flex-start;
 }
 
 #infos .infos-item {

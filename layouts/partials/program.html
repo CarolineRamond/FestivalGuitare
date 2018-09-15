@@ -70,7 +70,7 @@
                                         <div class="event-header-title">
                                             <strong>{{ index $event.type $lang }}</strong>
                                             {{ with $event.artist }}
-                                                <span>&nbsp: {{ . }} </span>
+                                                <span>&nbsp: {{ index . $lang }} </span>
                                             {{ end }}
                                         </div>
                                         <div class="dummy"></div>
@@ -79,7 +79,7 @@
                                         {{ end }}
                                     </div>
                                     {{ with $event.description}}
-                                        <div class="event-description">{{ index . $lang }}</div>
+                                        <div class="event-description">{{ index . $lang | markdownify }}</div>
                                     {{ end }}
                                 </div>
                             {{ end }}

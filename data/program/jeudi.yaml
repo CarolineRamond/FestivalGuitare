@@ -8,5 +8,10 @@ events:
       fr: "Concert"
       en: "Concert"
     icon: "img/logos/logo_concert.png"
-    artist: Soirée Flamenco avec Alfonso Carpio Fernàndez "El Mijita"
+    artist:
+      fr: "Thibaut Garcia // Soirée Flamenco"
+      en: "Thibaut Garcia // Flamenco Evening"
+    description:
+      fr: "<strong>Soirée Flamenco :</strong><br><strong>Chant -</strong> Alfonso Carpio Fernàndez \"Mijita\" & Marco \"el curandero\"<br><strong>Guitare -</strong> José Galvez<br><strong>Palmas -</strong> Isidoro Fernandez Roman"
+      en: "<strong>Flamenco Evening:</strong><br><strong>Vocals -</strong> Alfonso Carpio Fernàndez \"Mijita\" & Marco \"el curandero\"<br><strong>Guitar -</strong> José Galvez<br><strong>Palmas -</strong> Isidoro Fernandez Roman"
     time: "20h30"

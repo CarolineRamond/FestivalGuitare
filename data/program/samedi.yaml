@@ -5,29 +5,43 @@ order: 3
 events:
   - event:
     type: 
-        fr: "MasterClass"
-        en: "MasterClass"
+        fr: "Salon de Lutherie"
+        en: "Lute-making Exhibition"
+    icon: "img/logos/logo_lutherie.png"
+    time: "10h-19h"
+  - event:
+    type: 
+        fr: "Master Class"
+        en: "Master Class"
     icon: "img/logos/logo_master_class.png"
-    artist: "Alvaro Pierri"
+    artist: 
+        fr: "Alvaro Pierri"
+        en: "Alvaro Pierri"
     time: "10h-13h"
   - event:
     type: 
         fr: "Guitares à Suivre"
-        en: "Guitares à Suivre"
+        en: "Young talents (\"Guitares à Suivre\")"
     icon: "img/logos/logo_guitares_a_suivre.png"
-    artist: "Clément Mengelle // Johan Smith // Paul Sun"
+    artist: 
+        fr: "Clément Mengelle // Johan Smith // Paul Sun"
+        en: "Clément Mengelle // Johan Smith // Paul Sun"
     time: "15h"
   - event:
     type: 
         fr: "Concert en +"
-        en: "Concert en +"
+        en: "Extra Concert (\"Concert en +\")"
     icon: "img/logos/logo_concert_en_plus.png"
-    artist: "Raphaël Feuillâtre"
+    artist: 
+        fr: "Raphaël Feuillâtre"
+        en: "Raphaël Feuillâtre"
     time: "17h"
   - event:
     type: 
         fr: "Concert"
         en: "Concert"
     icon: "img/logos/logo_concert.png"
-    artist: "Finale du 1er Concours International de Guitare “Alberto Ponce” de Paris // Juan Falù"
+    artist: 
+        fr: "Finale du 1er Concours International de Guitare “Alberto Ponce” de Paris // Juan Falù"
+        en: "Finale of the first International Paris Guitar Competition “Alberto Ponce” // Juan Falù"
     time: "20h"
