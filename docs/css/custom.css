@@ -774,16 +774,64 @@ section {
 	flex-wrap: wrap;
 }
 
-.my-modal .press .press-link {
-	font-size: 18px;
-	margin: 4px 10px;
+.my-modal .press .press-item {
+	position: relative;
 }
+
+.my-modal .press .press-item .press-infos{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(115,76,104,0.85);
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	font-weight: bolder;
+	color: white;
+}
+
+.my-modal .press .press-item .press-infos:hover {
+	opacity: 1;
+}
+
 
 
 #facebook {
 	text-align: center;
 	font-size: 18px;
 	margin-top: 32px;
+}
+
+.my-modal .asso-content {
+	font-size: 16px;
+}
+
+.my-modal .asso-name {
+	color: #734C68;
+}
+
+.my-modal #asso-button {
+	margin: 20px;
+	background-color: #734C68;
+	padding: 8px;
+}
+
+.my-modal #asso-button:hover {
+	background-color: #AD7D9F;
+}
+
+.my-modal #asso-button a {
+	color: white;
+	text-decoration: none;
 }
 
 
