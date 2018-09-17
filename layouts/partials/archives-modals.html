@@ -32,9 +32,13 @@
                     {{ else if eq $archive.modalID "presse" }}
                         <div class="col-md-8 col-md-offset-2 col-xl-8 col-xl-offset-2 press">
                             {{ range $archive.list }}
-                            <div class="press-link">
+                            <div class="poster-img press-item">
                                 <a href="{{ .item.url }}" download>
-                                    {{ .item.name }}
+                                    <img src="{{ .item.img }}">
+                                    <div class="press-infos">
+                                        <div>{{ .item.date }}</div>
+                                        <div>{{ .item.title }}</div>
+                                    </div>
                                 </a>
                             </div>
                             {{ end }}

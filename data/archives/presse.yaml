@@ -6,42 +6,68 @@ enabled: true
 thumbnail: "img/archives/presse/thumbnail_presse.png"
 list:
   - item:
-      name: "2016 - Guitare Classique"
+      date: "2016"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2016_guitare_classique.png"      
       url: "img/archives/presse/2016_guitare_classique.pdf"
   - item:
-      name: "2010 - Guitare Classique"
+      date: "2010"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2010_guitare_classique.png"      
       url: "img/archives/presse/2010_guitare_classique.pdf"
   - item:
-      name: "2009 - Guitare Classique"
+      date: "2009"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2009_guitare_classique.png"      
       url: "img/archives/presse/2009_guitare_classique.pdf"
   - item:
-      name: "2008 - Guitare Classique"
+      date: "2008"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2008_guitare_classique.png"      
       url: "img/archives/presse/2008_guitare_classique.pdf"
   - item:
-      name: "2007 - Guitare Classique"
+      date: "2007"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2007_guitare_classique.png"      
       url: "img/archives/presse/2007_guitare_classique.pdf"
   - item:
-      name: "2006 - Guitare Classique"
+      date: "2006"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2006_guitare_classique.png"      
       url: "img/archives/presse/2006_guitare_classique.pdf"
   - item:
-      name: "2005 - Guitare Classique"
+      date: "2005"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2005_guitare_classique.png"      
       url: "img/archives/presse/2005_guitare_classique.pdf"
   - item:
-      name: "2005 - Guitare Classique (2)"
-      url: "img/archives/presse/2005_guitare_classique.pdf"
+      date: "2005"
+      title: "\"Guitare Classique\" (2)"
+      img: "img/archives/presse/2005_guitare_classique-2.png"      
+      url: "img/archives/presse/2005_guitare_classique-2.pdf"
   - item:
-      name: "2005 - Classical Guitar"
+      date: "2005"
+      title: "\"Classical Guitar\""
+      img: "img/archives/presse/2005_classical_guitar.png"      
       url: "img/archives/presse/2005_classical_guitar.pdf"
   - item:
-      name: "2004 - Resmusica"
+      date: "2004"
+      title: "\"Resmusica\""
+      img: "img/archives/presse/2004_resmusica.png"      
       url: "img/archives/presse/2004_resmusica.pdf"
   - item:
-      name: "2004 - Guitare Classique"
+      date: "2004"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2004_guitare_classique.png"      
       url: "img/archives/presse/2004_guitare_classique.pdf"
   - item:
-      name: "2003 - Resmusica"
+      date: "2003"
+      title: "\"Resmusica\""
+      img: "img/archives/presse/2003_resmusica.png"      
       url: "img/archives/presse/2003_resmusica.pdf"
   - item:
-      name: "2003 - Guitare Classique"
+      date: "2003"
+      title: "\"Guitare Classique\""
+      img: "img/archives/presse/2003_guitare_classique.png"      
       url: "img/archives/presse/2003_guitare_classique.pdf"
 

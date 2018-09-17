@@ -283,7 +283,8 @@ publishDir = "docs"
     [[languages.fr.tarifs.item]]
         title="Concerts"
         prices="""Plein tarif - <strong>25€</strong><br>
-            Tarif réduit - <strong>19€</strong>
+            Tarif réduit - <strong>19€</strong><br>
+            Tarif cheminot - <strong>12€</strong>
         """
         resa=true
 
@@ -481,7 +482,7 @@ publishDir = "docs"
     It is, for example, a partner of the association \"Guitar'Essonne\", so that members of both associations benefit from one another's advantages.
     </p>
     <br>
-    <p><strong class="asso-name">President :</strong> Tania CHAGNOT</p>
+    <p><strong class="asso-name">President : Tania CHAGNOT</p>
     <p><strong class="asso-name">Secretary :</strong> Sylvie JACQUOT</p>
     <p><strong class="asso-name">Treasurer :</strong> Georges TROLY</p>
     <p><strong class="asso-name">Honorary Comittee :</strong>
