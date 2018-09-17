@@ -786,6 +786,29 @@ section {
 	margin-top: 32px;
 }
 
+.my-modal .asso-content {
+	font-size: 16px;
+}
+
+.my-modal .asso-name {
+	color: #734C68;
+}
+
+.my-modal #asso-button {
+	margin: 20px;
+	background-color: #734C68;
+	padding: 8px;
+}
+
+.my-modal #asso-button:hover {
+	background-color: #AD7D9F;
+}
+
+.my-modal #asso-button a {
+	color: white;
+	text-decoration: none;
+}
+
 
 
 

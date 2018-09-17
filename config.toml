@@ -430,10 +430,71 @@ publishDir = "docs"
 
 [languages.fr.asso]
     title= "Association \"Vous avez dit guitare ?\""
-    text= "coucou les ptits potes"
+    inscription="Bulletin d'adhésion"
+    text= """<p align="justify">
+    L'association \"Vous avez dit guitare ?\" rassemble tous ceux qui souhaitent contribuer au rayonnement de la guitare en France en général, et à Paris en particulier.
+    </p>
+    <p align="justify">
+    Elle organise un festival international de guitare à Paris, proposant des concerts, des master-classes, des conférences, un salon de lutherie, etc.
+    </p>
+    <p align="justify">
+    Auprès des adhérents, elle diffuse des informations concernant les concerts de guitare qui ont lieu en Île-de-France.
+    </p>
+    <p align="justify">
+    Les adhérents bénéficient d'une information personnalisée et de tarifs préférentiels pour les manifestations organisées par l'Association.
+    </p>
+    <p align="justify">
+    Elle a également la volonté de s'associer à d'autres organismes susceptibles d'aider à la diffusion et la promotion de la guitare. Elle a adhéré à l'Association \"Guitar'Essonne\", vous bénéficiez donc de ses avantages.
+    </p>
+    <br>
+    <p><strong class="asso-name">Présidente :</strong> Tania CHAGNOT</p>
+    <p><strong class="asso-name">Secrétaire :</strong> Sylvie JACQUOT</p>
+    <p><strong class="asso-name">Trésorier :</strong> Georges TROLY</p>
+    <p><strong class="asso-name">Comité d'Honneur :</strong>
+    Roberto AUSSEL,
+    Cristina AZUMA,
+    Geneviève CHANUT,
+    Dominique DELARUE,
+    Jean-Marie FOUILLEUL,
+    François LAURENT,
+    Pascal QUINSON,
+    Danielle RIBOUILLAULT,
+    Jean-Jacques WERNER
+    </p>
+    """
 
 [languages.en.asso]
     title= "Association \"Vous avez dit guitare ?\""
-    text= "coucou les ptits potes"
+    inscription="Subscription Form"
+    text= """<p align="justify">
+    The association \"Vous avez dit guitare ?\" (\"Did you say guitar ?\") gathers all those who wish to contribute to guitar's influence in general, and particularly in Paris.
+    </p>
+    <p align="justify">
+    The association organizes an international festival in Paris. The festival offers concerts, master-classes, conferences, a lute-making exhibition, etc.
+    </p>
+    <p align="justify">
+    It distributes information about guitar concerts taking place in Île-de-France to its members,
+    who benefit from personalized information and advantageous prices for all the events organized by the association.
+    </p>
+    <p align="justify">
+    The association also wish to connect with other organizations that may help to promote guitar. 
+    It is, for example, a partner of the association \"Guitar'Essonne\", so that members of both associations benefit from one another's advantages.
+    </p>
+    <br>
+    <p><strong class="asso-name">President :</strong> Tania CHAGNOT</p>
+    <p><strong class="asso-name">Secretary :</strong> Sylvie JACQUOT</p>
+    <p><strong class="asso-name">Treasurer :</strong> Georges TROLY</p>
+    <p><strong class="asso-name">Honorary Comittee :</strong>
+    Roberto AUSSEL,
+    Cristina AZUMA,
+    Geneviève CHANUT,
+    Dominique DELARUE,
+    Jean-Marie FOUILLEUL,
+    François LAURENT,
+    Pascal QUINSON,
+    Danielle RIBOUILLAULT,
+    Jean-Jacques WERNER
+    </p>
+    """
 
 
